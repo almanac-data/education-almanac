@@ -7,47 +7,61 @@
   },
   "entries": [
     {
-      "id": "example-dataset",
+      "id": "unesco-uis",
       "type": "dataset",
-      "title": "Example Dataset (replace this with a real entry)",
-      "description": "A placeholder catalog entry so the index builds and CI passes on a fresh template. Delete this file once you have added your first real dataset.\n",
-      "publisher": "Example Agency",
+      "title": "UNESCO Institute for Statistics (UIS) Data",
+      "description": "The official UN source of internationally comparable education statistics, covering enrollment, literacy, attainment, and SDG 4 education indicators for UNESCO member states.\n",
+      "publisher": "UNESCO Institute for Statistics (UIS)",
+      "jurisdiction": {
+        "scope": "multilateral",
+        "country": null
+      },
       "topics": [
-        "example"
+        "enrollment",
+        "literacy",
+        "attainment",
+        "sdg4",
+        "global"
       ],
       "source": {
-        "canonical_url": "https://example.org"
+        "canonical_url": "https://uis.unesco.org/en/home"
       },
       "access": {
         "method": [
-          "web"
+          "web",
+          "api",
+          "bulk"
         ],
         "auth_required": false,
         "auth_note": null,
         "rate_limit": null
       },
       "format": [
-        "html"
+        "csv",
+        "sdmx",
+        "json"
       ],
       "status": "live",
-      "status_since": "2026-06-29",
-      "status_source": "auto",
+      "status_since": "2026-07-01",
+      "status_source": "curator",
       "observed": {
-        "checked": "2026-06-29",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null,
-        "redirect_chain": [],
+        "checked": "2026-07-01",
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.uis.unesco.org/en",
+        "redirect_chain": [
+          "https://www.uis.unesco.org/en"
+        ],
         "fingerprint_result": "no-baseline"
       },
       "coverage": {
-        "spatial": "global",
-        "temporal": "n/a",
-        "cadence": "static"
+        "spatial": "global (UNESCO member states)",
+        "temporal": "1970-present (indicator-dependent)",
+        "cadence": "annual"
       },
-      "license": "CC0-1.0",
-      "attribution": "Example Agency",
-      "notes": "This is a template stub. See SETUP.md for how to stand up your own almanac vertical, then replace this entry with real datasets.\n"
+      "license": "CC-BY-SA-3.0 IGO (UIS terms of use)",
+      "attribution": "UNESCO Institute for Statistics (UIS)",
+      "notes": "Verified reachable this session (HTTP 200, redirected to www.uis.unesco.org/en). UIS Data Browser is the primary interactive access point; bulk SDMX downloads also available. Seeded as this vertical's first international (non-US) source per operator request to seed the new verticals international-first.\n"
     }
   ]
 }

@@ -1,0 +1,48 @@
+id: unesco-uis
+type: dataset
+title: UNESCO Institute for Statistics (UIS) Data
+description: |
+  The official UN source of internationally comparable education statistics, covering enrollment, literacy, attainment, and SDG 4 education indicators for UNESCO member states.
+publisher: UNESCO Institute for Statistics (UIS)
+jurisdiction:
+  scope: multilateral
+  country: null
+topics:
+- enrollment
+- literacy
+- attainment
+- sdg4
+- global
+source:
+  canonical_url: https://uis.unesco.org/en/home
+access:
+  method:
+  - web
+  - api
+  - bulk
+  auth_required: false
+  auth_note: null
+  rate_limit: null
+format:
+- csv
+- sdmx
+- json
+status: live
+status_since: '2026-07-01'
+status_source: curator
+observed:
+  checked: '2026-07-01'
+  reachable: true
+  http_status: 200
+  final_url: https://www.uis.unesco.org/en
+  redirect_chain:
+  - https://www.uis.unesco.org/en
+  fingerprint_result: no-baseline
+coverage:
+  spatial: global (UNESCO member states)
+  temporal: 1970-present (indicator-dependent)
+  cadence: annual
+license: CC-BY-SA-3.0 IGO (UIS terms of use)
+attribution: UNESCO Institute for Statistics (UIS)
+notes: |
+  Verified reachable this session (HTTP 200, redirected to www.uis.unesco.org/en). UIS Data Browser is the primary interactive access point; bulk SDMX downloads also available. Seeded as this vertical's first international (non-US) source per operator request to seed the new verticals international-first.
