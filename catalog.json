@@ -1,11 +1,113 @@
 {
   "name": "Education Almanac",
   "description": "An open, versioned index of public education data.",
-  "count": 2,
+  "count": 8,
   "by_status": {
-    "live": 2
+    "live": 8
   },
   "entries": [
+    {
+      "id": "college-scorecard",
+      "type": "dataset",
+      "title": "College Scorecard",
+      "description": "The Department of Education's institution- and field-of-study-level data on U.S. colleges: costs, student aid, completion, debt and repayment, and post-enrollment earnings, combining IPEDS, federal student aid records, and Treasury earnings data.\n",
+      "publisher": "U.S. Department of Education",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
+      "topics": [
+        "higher-education",
+        "costs",
+        "student-debt",
+        "earnings",
+        "outcomes"
+      ],
+      "source": {
+        "canonical_url": "https://collegescorecard.ed.gov/data/"
+      },
+      "access": {
+        "method": [
+          "web",
+          "bulk",
+          "api"
+        ],
+        "auth_required": false,
+        "auth_note": "The API (api.data.gov/ed/collegescorecard/v1/) requires a free api.data.gov key; bulk downloads need none.",
+        "rate_limit": null
+      },
+      "format": [
+        "csv",
+        "json"
+      ],
+      "status": "live",
+      "status_since": "2026-10-31",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-10-31",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "United States (institution and field-of-study level)",
+        "temporal": "1996-97 through 2025-26 (institution-level files)",
+        "cadence": "annual"
+      },
+      "license": "public-domain (US Gov work)",
+      "attribution": "U.S. Department of Education, College Scorecard",
+      "notes": "Human-verified 2026-10-31: HTTP 200. The page says \"This data was last updated October 15, 2026\" and offers an all-data zip (536 MB) of institution-level files for 1996-97 through 2025-26. The API documentation page states that an API key is required for every request, with base URL https://api.data.gov/ed/collegescorecard/v1/schools. The note in the description about combining IPEDS, federal student aid, and Treasury data reflects the Scorecard's documented sources; a steward should confirm it.\n"
+    },
+    {
+      "id": "crdc-civil-rights-data-collection",
+      "type": "dataset",
+      "title": "Civil Rights Data Collection (CRDC)",
+      "description": "The Office for Civil Rights' mandatory survey of every U.S. public school district and school, collecting data on students' equal access to educational opportunity — course access, discipline, restraint and seclusion, harassment, and more — by race, sex, disability, and English learner status.\n",
+      "publisher": "U.S. Department of Education, Office for Civil Rights (OCR)",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
+      "topics": [
+        "civil-rights",
+        "equity",
+        "discipline",
+        "k12",
+        "school-level"
+      ],
+      "source": {
+        "canonical_url": "https://civilrightsdata.ed.gov/"
+      },
+      "access": {
+        "method": [
+          "web",
+          "bulk"
+        ],
+        "auth_required": false,
+        "auth_note": null,
+        "rate_limit": null
+      },
+      "format": [
+        "csv"
+      ],
+      "status": "live",
+      "status_since": "2026-10-31",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-10-31",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "United States (all public districts and schools in the 50 states, DC, and Puerto Rico)",
+        "temporal": "school years through 2023-24 (recent downloadable files 2015-16 onward)",
+        "cadence": "irregular"
+      },
+      "license": "public-domain (US Gov work)",
+      "attribution": "U.S. Department of Education, Office for Civil Rights, Civil Rights Data Collection",
+      "notes": "Human-verified 2026-10-31: HTTP 200. The site renders only with JavaScript; headless Chromium shows its description as \"a mandatory survey of all public school districts and schools in the 50 states, Washington, D.C., and the Commonwealth of Puerto Rico\". The downloads page (https://civilrightsdata.ed.gov/data) lists files for 2023-24, 2021-22, 2020-21, 2017-18, and 2015-16. Collections are usually biennial but the gaps vary, so cadence is irregular. The csv format is assumed from the download files and should be confirmed by a steward.\n"
+    },
     {
       "id": "eurostat-education-and-training-database",
       "type": "dataset",
@@ -59,6 +161,209 @@
       "license": "CC-BY-4.0 (Eurostat copyright notice and free re-use of data)",
       "attribution": "Eurostat",
       "notes": "Human-verified 2026-10-31: HTTP 200. The page shows the Education and training database with selected and detailed datasets. Eurostat's copyright notice (https://ec.europa.eu/eurostat/help/copyright-notice) licenses its content under CC BY 4.0. API and bulk access go through Eurostat's general dissemination services. The topic list in the description reflects Eurostat's usual education tables, not a check of each dataset.\n"
+    },
+    {
+      "id": "naep-nations-report-card",
+      "type": "dataset",
+      "title": "NAEP — The Nation's Report Card",
+      "description": "The National Assessment of Educational Progress, the largest continuing nationally representative assessment of what U.S. students know in mathematics, reading, science, civics, and other subjects, reported for the nation, states, and selected large districts.\n",
+      "publisher": "U.S. Department of Education, National Center for Education Statistics (NCES), for the National Assessment Governing Board",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
+      "topics": [
+        "assessment",
+        "student-achievement",
+        "k12",
+        "state-level"
+      ],
+      "source": {
+        "canonical_url": "https://www.nationsreportcard.gov/"
+      },
+      "access": {
+        "method": [
+          "web",
+          "api"
+        ],
+        "auth_required": false,
+        "auth_note": null,
+        "rate_limit": null
+      },
+      "format": [
+        "json",
+        "xlsx"
+      ],
+      "status": "live",
+      "status_since": "2026-10-31",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-10-31",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "United States (nation, states, participating urban districts)",
+        "temporal": "1969-present (long-term trend); main NAEP from 1990",
+        "cadence": "irregular"
+      },
+      "license": "public-domain (US Gov work)",
+      "attribution": "National Center for Education Statistics, National Assessment of Educational Progress (NAEP)",
+      "notes": "Human-verified 2026-10-31: HTTP 200. The page lists the subject Report Cards (mathematics, reading, civics, long-term trend, and others) and the Data Tools: Data Explorer, State and District Profiles, and the NAEP Data Service API. Assessments run on a rotating subject schedule (core subjects about every two years), so cadence is irregular. The 1969 and 1990 start dates come from NCES's usual description and weren't checked here. The publisher line follows NAEP's usual statement that NCES administers it under the Governing Board's policy.\n"
+    },
+    {
+      "id": "nces-common-core-of-data",
+      "type": "dataset",
+      "title": "NCES Common Core of Data (CCD)",
+      "description": "The Department of Education's primary database on U.S. public elementary and secondary schools and districts — school directory, enrollment by grade and demographics, staffing, and district finance — reported annually by state education agencies.\n",
+      "publisher": "U.S. Department of Education, National Center for Education Statistics (NCES)",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
+      "topics": [
+        "k12",
+        "schools",
+        "districts",
+        "enrollment",
+        "school-finance"
+      ],
+      "source": {
+        "canonical_url": "https://nces.ed.gov/ccd/"
+      },
+      "access": {
+        "method": [
+          "web",
+          "bulk"
+        ],
+        "auth_required": false,
+        "auth_note": null,
+        "rate_limit": null
+      },
+      "format": [
+        "csv"
+      ],
+      "status": "live",
+      "status_since": "2026-10-31",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-10-31",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "United States (every public school and district)",
+        "temporal": "multi-decade annual school years",
+        "cadence": "annual"
+      },
+      "license": "public-domain (US Gov work)",
+      "attribution": "National Center for Education Statistics, Common Core of Data",
+      "notes": "Human-verified 2026-10-31: HTTP 200. The page links CCD Data Files, the CCD Data File Tool, data tables, and the School Locator; the Data Files page (https://nces.ed.gov/ccd/files.asp) loads in headless Chromium. The csv format and the multi-decade span come from NCES's usual CCD distribution and weren't checked file by file.\n"
+    },
+    {
+      "id": "nces-digest-of-education-statistics",
+      "type": "dataset",
+      "title": "NCES Digest of Education Statistics",
+      "description": "NCES's annual compendium of statistical tables covering American education from prekindergarten through graduate school — enrollment, teachers, attainment, finance, outcomes — drawn from government and private sources.\n",
+      "publisher": "U.S. Department of Education, National Center for Education Statistics (NCES)",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
+      "topics": [
+        "compendium",
+        "k12",
+        "higher-education",
+        "finance",
+        "attainment"
+      ],
+      "source": {
+        "canonical_url": "https://nces.ed.gov/programs/digest/"
+      },
+      "access": {
+        "method": [
+          "web",
+          "bulk"
+        ],
+        "auth_required": false,
+        "auth_note": null,
+        "rate_limit": null
+      },
+      "format": [
+        "xlsx",
+        "html",
+        "pdf"
+      ],
+      "status": "live",
+      "status_since": "2026-10-31",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-10-31",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "United States (some international comparison tables)",
+        "temporal": "release years 1995-present online (PDF editions 1990-2020)",
+        "cadence": "annual"
+      },
+      "license": "public-domain (US Gov work)",
+      "attribution": "National Center for Education Statistics, Digest of Education Statistics",
+      "notes": "Human-verified 2026-10-31: HTTP 200. The page offers the latest version of all Digest tables, archived tables for release years 1995 through 2025, and PDF versions from 1990 to 2020. Downloadable table formats (xlsx) are assumed from the Digest's standard table pages.\n"
+    },
+    {
+      "id": "nces-ipeds",
+      "type": "dataset",
+      "title": "NCES Integrated Postsecondary Education Data System (IPEDS)",
+      "description": "Annual institution-level data on every U.S. college, university, and technical or vocational institution that takes part in federal student aid programs, from 12 interrelated survey components: enrollment, completions, graduation rates, finance, staff, and more.\n",
+      "publisher": "U.S. Department of Education, National Center for Education Statistics (NCES)",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
+      "topics": [
+        "higher-education",
+        "institutions",
+        "enrollment",
+        "completions",
+        "graduation-rates"
+      ],
+      "source": {
+        "canonical_url": "https://nces.ed.gov/ipeds/"
+      },
+      "access": {
+        "method": [
+          "web",
+          "bulk"
+        ],
+        "auth_required": false,
+        "auth_note": null,
+        "rate_limit": null
+      },
+      "format": [
+        "csv",
+        "accdb"
+      ],
+      "status": "live",
+      "status_since": "2026-10-31",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-10-31",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "United States (institution level)",
+        "temporal": "multi-decade annual collections",
+        "cadence": "annual"
+      },
+      "license": "public-domain (US Gov work)",
+      "attribution": "National Center for Education Statistics, IPEDS",
+      "notes": "Human-verified 2026-10-31: HTTP 200. The page describes IPEDS as \"a system of 12 interrelated survey components conducted annually\", covering every institution that participates in federal student financial aid programs. It links Complete Data Files, Custom Data Files, the Access Database, and the Data Explorer, so formats are recorded as csv and accdb.\n"
     },
     {
       "id": "unesco-uis",
