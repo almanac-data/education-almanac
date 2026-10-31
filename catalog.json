@@ -1,11 +1,61 @@
 {
   "name": "Education Almanac",
   "description": "An open, versioned index of public education data.",
-  "count": 1,
+  "count": 2,
   "by_status": {
-    "live": 1
+    "live": 2
   },
   "entries": [
+    {
+      "id": "nces-common-core-of-data",
+      "type": "dataset",
+      "title": "NCES Common Core of Data (CCD)",
+      "description": "The Department of Education's primary database on U.S. public elementary and secondary schools and districts — school directory, enrollment by grade and demographics, staffing, and district finance — reported annually by state education agencies.\n",
+      "publisher": "U.S. Department of Education, National Center for Education Statistics (NCES)",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
+      "topics": [
+        "k12",
+        "schools",
+        "districts",
+        "enrollment",
+        "school-finance"
+      ],
+      "source": {
+        "canonical_url": "https://nces.ed.gov/ccd/"
+      },
+      "access": {
+        "method": [
+          "web",
+          "bulk"
+        ],
+        "auth_required": false,
+        "auth_note": null,
+        "rate_limit": null
+      },
+      "format": [
+        "csv"
+      ],
+      "status": "live",
+      "status_since": "2026-10-31",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-10-31",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "United States (every public school and district)",
+        "temporal": "multi-decade annual school years",
+        "cadence": "annual"
+      },
+      "license": "public-domain (US Gov work)",
+      "attribution": "National Center for Education Statistics, Common Core of Data",
+      "notes": "Human-verified 2026-10-31: HTTP 200. The page links CCD Data Files, the CCD Data File Tool, data tables, and the School Locator; the Data Files page (https://nces.ed.gov/ccd/files.asp) loads in headless Chromium. The csv format and the multi-decade span come from NCES's usual CCD distribution and weren't checked file by file.\n"
+    },
     {
       "id": "unesco-uis",
       "type": "dataset",
