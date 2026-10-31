@@ -1,0 +1,41 @@
+id: northern-ireland-school-enrolments
+type: dataset
+title: Northern Ireland School Enrolments (School Census)
+description: |
+  Statistical bulletins and school-level data from the Department of Education's annual October school census, counting all pupils in Northern Ireland schools by gender, year group, religion, ethnicity, special educational needs, school type, and geography.
+publisher: Department of Education (Northern Ireland)
+jurisdiction:
+  scope: national
+  country: GB
+topics:
+- schools
+- enrolment
+- pupil-census
+- northern-ireland
+source:
+  canonical_url: https://www.education-ni.gov.uk/topics/school-enrolments
+access:
+  method:
+  - web
+  - bulk
+  auth_required: false
+  auth_note: null
+  rate_limit: null
+format:
+- xlsx
+status: live
+status_since: '2026-10-31'
+status_source: curator
+observed:
+  checked: '2026-10-31'
+  reachable: null
+  http_status: null
+  final_url: null
+coverage:
+  spatial: Northern Ireland (school, former Education and Library Board, and district council level)
+  temporal: annual October census rounds
+  cadence: annual
+license: unverified — the site footer shows Crown copyright; no Open Government Licence statement found on the pages checked
+attribution: Department of Education Northern Ireland, School enrolments
+notes: |
+  Human-verified 2026-10-31: HTTP 200. The old /topics/statistics-and-research/school-enrolments URL redirects here. The overview page (https://www.education-ni.gov.uk/articles/school-enrolments-overview) says the census "takes place in October of each year and is a count of all pupils attending schools in Northern Ireland" and lists the characteristics collected. The topic page links school-level data and school population projections. The licence and formats are unverified.
