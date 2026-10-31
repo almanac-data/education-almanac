@@ -1,0 +1,42 @@
+id: wales-schools-census-results
+type: dataset
+title: Welsh Government Schools' Census Results (PLASC)
+description: |
+  The Welsh Government's annual report of data from the Pupil Level Annual School Census, with information on schools, pupils, teachers, and support staff in Wales.
+publisher: Welsh Government
+jurisdiction:
+  scope: national
+  country: GB
+topics:
+- schools
+- pupil-census
+- wales
+source:
+  canonical_url: https://www.gov.wales/schools-census-results
+access:
+  method:
+  - web
+  - bulk
+  auth_required: false
+  auth_note: null
+  rate_limit: null
+format:
+- ods
+- xlsx
+status: live
+status_since: '2026-10-31'
+status_source: curator
+observed:
+  checked: '2026-10-31'
+  reachable: null
+  http_status: null
+  final_url: null
+coverage:
+  spatial: Wales (national and local authority)
+  temporal: January census rounds (series first published 2014; latest January 2026)
+  cadence: annual
+license: unverified — Welsh Government statistics are normally released under the Open Government Licence, but no licence text was found on the pages checked
+attribution: Welsh Government, Schools' census results
+notes: |
+  Human-verified 2026-10-31: HTTP 200. The page describes "An annual report that presents data collected from the Pupil Level Annual School Census, with additional information on the schools and their teachers and support staff". It shows "First published: 24 July 2014", "Last updated: 5 August 2026", and the latest release, "Schools' census results: January 2026". More detailed tables are on StatsWales, whose old address redirects to stats.gov.wales. The licence and formats are unverified.
+  Reachability is touchy. On 2026-10-31 a browser-UA curl got HTTP 200 (once after 11 s, once in 0.3 s), a curl with no user agent got HTTP 403, and scripts/check_links.py timed out at its 12 s limit. A link-checker flag on this entry may be slowness or bot filtering rather than a dead page.
