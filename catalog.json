@@ -1,11 +1,62 @@
 {
   "name": "Education Almanac",
   "description": "An open, versioned index of public education data.",
-  "count": 11,
+  "count": 12,
   "by_status": {
-    "live": 11
+    "live": 12
   },
   "entries": [
+    {
+      "id": "brazil-inep-microdados",
+      "type": "dataset",
+      "title": "INEP Microdata (Brazil)",
+      "description": "Brazil's national education research institute's microdata for its surveys, exams, and assessments — the basic-education School Census, the Higher Education Census, ENEM, Saeb, Enade, and others — the primary source for Brazilian education statistics.\n",
+      "publisher": "Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (INEP), Brazil",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "BR"
+      },
+      "topics": [
+        "school-census",
+        "higher-education",
+        "assessment",
+        "enem",
+        "brazil"
+      ],
+      "source": {
+        "canonical_url": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados"
+      },
+      "access": {
+        "method": [
+          "web",
+          "bulk"
+        ],
+        "auth_required": false,
+        "auth_note": null,
+        "rate_limit": null
+      },
+      "format": [
+        "csv",
+        "zip"
+      ],
+      "status": "live",
+      "status_since": "2026-10-31",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-10-31",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "Brazil (school, institution, and individual level, de-identified)",
+        "temporal": "varies by survey (multiple decades for the School Census)",
+        "cadence": "annual"
+      },
+      "license": "CC-BY-ND-3.0 (gov.br/inep site content licence; no separate licence stated for the microdata files)",
+      "attribution": "INEP — Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira",
+      "notes": "Human-verified 2026-10-31: HTTP 200. The page lists microdata for the Censo Escolar, the Censo da Educação Superior, Enade, and other INEP surveys and exams. It notes that file formats are being restructured to remove the possibility of identifying individuals. The INEP Dados Abertos page states \"Todo o conteúdo deste site está publicado sob a licença Creative Commons Atribuição-SemDerivações 3.0 Não Adaptada\" (CC BY-ND 3.0). That is a site-wide statement, recorded as found; a steward should confirm whether it is meant to cover the microdata. The csv/zip formats come from INEP's usual distribution and weren't checked.\n"
+    },
     {
       "id": "cepalstat",
       "type": "dataset",
