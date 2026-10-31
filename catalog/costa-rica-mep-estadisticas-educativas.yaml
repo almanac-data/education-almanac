@@ -1,0 +1,41 @@
+id: costa-rica-mep-estadisticas-educativas
+type: dataset
+title: Costa Rica Ministry of Public Education — Education Statistics
+description: |
+  Official education statistics from Costa Rica's Ministry of Public Education: enrollment databases by school, year, and level, interactive dashboards, methodological documents, and analytical publications.
+publisher: Ministerio de Educación Pública (MEP), Costa Rica — Departamento de Análisis Estadístico
+jurisdiction:
+  scope: national
+  country: CR
+topics:
+- enrollment
+- school-level
+- central-america
+- costa-rica
+source:
+  canonical_url: https://www.mep.go.cr/acerca-del-mep/analisis-estadistico/estadisticas-educativas
+access:
+  method:
+  - web
+  - bulk
+  auth_required: false
+  auth_note: null
+  rate_limit: null
+format:
+- xlsx
+status: live
+status_since: '2026-10-31'
+status_source: curator
+observed:
+  checked: '2026-10-31'
+  reachable: null
+  http_status: null
+  final_url: null
+coverage:
+  spatial: Costa Rica (school level)
+  temporal: 2014-2022 for the enrollment databases listed
+  cadence: annual
+license: unverified — no license found on the page checked
+attribution: Ministerio de Educación Pública de Costa Rica, Departamento de Análisis Estadístico
+notes: |
+  Human-verified 2026-10-31: HTTP 200 (the old /indicadores-educativos URL redirects here). The page offers "estadísticas oficiales, tableros interactivos, bases de datos, documentos metodológicos y publicaciones analíticas". It lists downloadable databases such as "Matrícula inicial colegios 2014-2022 por año cursado y sexo" and "Matrícula inicial Escuelas Diurnas 2014-2022". The xlsx format and the license are unverified. It is the only Central American national education source reachable this session.
