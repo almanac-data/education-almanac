@@ -1,0 +1,40 @@
+id: uruguay-ineed-aristas
+type: dataset
+title: INEEd Aristas — Uruguay National Student Assessment
+description: |
+  Databases from Aristas, the national assessment of learning and school context run by Uruguay's National Institute for Educational Evaluation, along with INEEd's other education databases and its report on the state of education in Uruguay.
+publisher: Instituto Nacional de Evaluación Educativa (INEEd), Uruguay
+jurisdiction:
+  scope: national
+  country: UY
+topics:
+- assessment
+- learning-outcomes
+- uruguay
+source:
+  canonical_url: https://www.ineed.edu.uy/bases-de-datos-de-aristas/
+access:
+  method:
+  - web
+  - bulk
+  auth_required: false
+  auth_note: null
+  rate_limit: null
+format:
+- csv
+status: live
+status_since: '2026-10-31'
+status_source: curator
+observed:
+  checked: '2026-10-31'
+  reachable: null
+  http_status: null
+  final_url: null
+coverage:
+  spatial: Uruguay (national samples of primary and secondary students)
+  temporal: Aristas assessment rounds
+  cadence: irregular
+license: unverified — no data license found; the site footer's rights notice belongs to its web designer, not the data
+attribution: INEEd — Instituto Nacional de Evaluación Educativa
+notes: |
+  Human-verified 2026-10-31: HTTP 200 for both https://www.ineed.edu.uy/ and the "Bases de datos de Aristas" page. The menu lists "Bases de datos de Aristas" and "Otras bases de datos". No data license is stated: the footer's "Todos los derechos reservados" belongs to the site designer's credit. Not checked: the csv format and the assessment years covered.
