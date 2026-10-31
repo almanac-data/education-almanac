@@ -1,0 +1,43 @@
+id: uk-dfe-explore-education-statistics
+type: dataset
+title: Explore Education Statistics (UK Department for Education)
+description: |
+  The Department for Education's official statistics service for England — schools, pupils, attainment, further and higher education, children's social care, and the education workforce — with a data catalogue and public API.
+publisher: Department for Education (DfE), United Kingdom
+jurisdiction:
+  scope: national
+  country: GB
+topics:
+- schools
+- attainment
+- children-social-care
+- workforce
+- england
+source:
+  canonical_url: https://explore-education-statistics.service.gov.uk/
+access:
+  method:
+  - web
+  - api
+  - bulk
+  auth_required: false
+  auth_note: null
+  rate_limit: null
+format:
+- csv
+status: live
+status_since: '2026-10-31'
+status_source: curator
+observed:
+  checked: '2026-10-31'
+  reachable: null
+  http_status: null
+  final_url: null
+coverage:
+  spatial: England (national, regional, local authority, and school level depending on release)
+  temporal: varies by publication
+  cadence: event
+license: OGL-UK-3.0 (Open Government Licence v3.0, except where otherwise stated)
+attribution: Department for Education, Explore education statistics
+notes: |
+  Human-verified 2026-10-31: HTTP 200. The page links a data catalogue and API documentation and states "All content is available under the Open Government Licence v3.0, except where otherwise stated". The service is regulated by the Office for Statistics Regulation. Coverage is England only; education is devolved, so Scotland, Wales, and Northern Ireland publish their own statistics. Each official statistics release has its own schedule, so cadence is event. auth_required: false assumes the public API needs no key; a steward should confirm it.
