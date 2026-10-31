@@ -35,7 +35,8 @@ coverage:
   spatial: Argentina (national, provincial, school level)
   temporal: varies by survey
   cadence: annual
-license: CC-BY-4.0 (Argentina.gob.ar content licence)
+license: CC-BY-4.0 (datos.gob.ar Aprender dataset listings; Argentina.gob.ar Términos y Condiciones)
 attribution: Secretaría de Educación, Ministerio de Capital Humano — Información y Evaluación Educativa
 notes: |
-  Human-verified 2026-10-31: HTTP 200. The old URL /educacion/evaluacion-e-informacion-educativa redirects here. The page lists "Datos abiertos: Bases de datos de Aprender y Relevamiento Anual", "Reportes por escuela: Plataforma de microdatos por escuela", "Padrón Nacional de Establecimientos Educativos", and SICDIE, the indicators query system. The datos-abiertos page footer states "Los contenidos de Argentina.gob.ar están licenciados bajo Creative Commons Atribución 4.0 Internacional". The publisher name is taken from the URL path and ministry branding, and should be confirmed by a steward. The national open data portal, datos.gob.ar, did not respond this session.
+  Human-verified 2026-10-31: HTTP 200. The old URL /educacion/evaluacion-e-informacion-educativa redirects here. The page lists "Datos abiertos: Bases de datos de Aprender y Relevamiento Anual", "Reportes por escuela: Plataforma de microdatos por escuela", "Padrón Nacional de Establecimientos Educativos", and SICDIE, the indicators query system. The publisher name is taken from the URL path and ministry branding, and should be confirmed by a steward.
+  Licence checked 2026-10-31: the footer line "Los contenidos de Argentina.gob.ar están licenciados bajo Creative Commons Atribución 4.0 Internacional", quoted here earlier, sits inside an HTML comment on the page and is not displayed. The evidence instead: the site's terms (https://www.argentina.gob.ar/terminos-y-condiciones) say "El Administrador licencia todos sus contenidos bajo la licencia Creative Commons Atribución 4.0 Internacional… excepto cuando se declare lo contrario", and on datos.gob.ar the Aprender datasets (educacion-aprender-2019, 2021, 2022, 2023 and 2024) are listed with license_id CC-BY-4.0.

@@ -42,7 +42,8 @@ coverage:
   spatial: global (UNESCO member states)
   temporal: 1970-present (indicator-dependent)
   cadence: annual
-license: CC-BY-SA-3.0 IGO (UIS terms of use)
+license: CC-BY-SA-4.0 (UIS Data Browser terms and conditions; UIS Data API documentation)
 attribution: UNESCO Institute for Statistics (UIS)
 notes: |
   Verified reachable this session (HTTP 200, redirected to www.uis.unesco.org/en). UIS Data Browser is the primary interactive access point; bulk SDMX downloads also available. Seeded as this vertical's first international (non-US) source per operator request to seed the new verticals international-first.
+  Licence checked 2026-10-31: the Data Browser terms (https://databrowser.uis.unesco.org/terms-and-conditions) say "The work of the UIS is licensed under the Creative Commons Attribution-ShareAlike 4.0 International license" and ask for credit as "Source: … UNESCO Institute for Statistics (UIS), complete URL, date of extraction"; the API documentation (https://api.uis.unesco.org/api/public/documentation/) says "The data is licensed under the Creative Commons Attribution-ShareAlike 4.0 International license." The earlier string was CC BY-SA 3.0 IGO.
