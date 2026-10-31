@@ -1,11 +1,61 @@
 {
   "name": "Education Almanac",
   "description": "An open, versioned index of public education data.",
-  "count": 1,
+  "count": 2,
   "by_status": {
-    "live": 1
+    "live": 2
   },
   "entries": [
+    {
+      "id": "crdc-civil-rights-data-collection",
+      "type": "dataset",
+      "title": "Civil Rights Data Collection (CRDC)",
+      "description": "The Office for Civil Rights' mandatory survey of every U.S. public school district and school, collecting data on students' equal access to educational opportunity — course access, discipline, restraint and seclusion, harassment, and more — by race, sex, disability, and English learner status.\n",
+      "publisher": "U.S. Department of Education, Office for Civil Rights (OCR)",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
+      "topics": [
+        "civil-rights",
+        "equity",
+        "discipline",
+        "k12",
+        "school-level"
+      ],
+      "source": {
+        "canonical_url": "https://civilrightsdata.ed.gov/"
+      },
+      "access": {
+        "method": [
+          "web",
+          "bulk"
+        ],
+        "auth_required": false,
+        "auth_note": null,
+        "rate_limit": null
+      },
+      "format": [
+        "csv"
+      ],
+      "status": "live",
+      "status_since": "2026-10-31",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-10-31",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "United States (all public districts and schools in the 50 states, DC, and Puerto Rico)",
+        "temporal": "school years through 2023-24 (recent downloadable files 2015-16 onward)",
+        "cadence": "irregular"
+      },
+      "license": "public-domain (US Gov work)",
+      "attribution": "U.S. Department of Education, Office for Civil Rights, Civil Rights Data Collection",
+      "notes": "Human-verified 2026-10-31: HTTP 200. The site renders only with JavaScript; headless Chromium shows its description as \"a mandatory survey of all public school districts and schools in the 50 states, Washington, D.C., and the Commonwealth of Puerto Rico\". The downloads page (https://civilrightsdata.ed.gov/data) lists files for 2023-24, 2021-22, 2020-21, 2017-18, and 2015-16. Collections are usually biennial but the gaps vary, so cadence is irregular. The csv format is assumed from the download files and should be confirmed by a steward.\n"
+    },
     {
       "id": "unesco-uis",
       "type": "dataset",
