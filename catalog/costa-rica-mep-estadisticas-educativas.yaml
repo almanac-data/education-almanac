@@ -35,7 +35,8 @@ coverage:
   spatial: Costa Rica (school level)
   temporal: 2014-2022 for the enrollment databases listed
   cadence: annual
-license: unverified — no license found on the page checked
+license: CC-BY-NC-4.0 (MEP Términos y Condiciones de uso, site-wide; the same sentence also says "dominio público", so a steward should confirm)
 attribution: Ministerio de Educación Pública de Costa Rica, Departamento de Análisis Estadístico
 notes: |
-  Human-verified 2026-10-31: HTTP 200 (the old /indicadores-educativos URL redirects here). The page offers "estadísticas oficiales, tableros interactivos, bases de datos, documentos metodológicos y publicaciones analíticas". It lists downloadable databases such as "Matrícula inicial colegios 2014-2022 por año cursado y sexo" and "Matrícula inicial Escuelas Diurnas 2014-2022". The xlsx format and the license are unverified. It is the only Central American national education source reachable this session.
+  Human-verified 2026-10-31: HTTP 200 (the old /indicadores-educativos URL redirects here). The page offers "estadísticas oficiales, tableros interactivos, bases de datos, documentos metodológicos y publicaciones analíticas". It lists downloadable databases such as "Matrícula inicial colegios 2014-2022 por año cursado y sexo" and "Matrícula inicial Escuelas Diurnas 2014-2022". The xlsx format is unverified. It is the only Central American national education source reachable this session.
+  Licence checked 2026-10-31: MEP's terms (https://www.mep.go.cr/terminos-condiciones-uso), linked from the site footer, say "Todo el material producido por la institución se encuentra bajo el dominio público, con excepción de los datos personales, los límites que están establecidos en la Constitución y otras leyes aprobadas por la Asamblea Legislativa bajo una licencia de Creative Commons Reconocimiento-NoComercial 4.0 Internacional", with a rel="license" link to CC BY-NC 4.0. The sentence names both public domain and CC BY-NC, so the stricter reading is recorded. It is site-wide; the statistics page and its files carry no licence of their own.

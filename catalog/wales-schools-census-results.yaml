@@ -35,8 +35,9 @@ coverage:
   spatial: Wales (national and local authority)
   temporal: January census rounds (series first published 2014; latest January 2026)
   cadence: annual
-license: unverified — Welsh Government statistics are normally released under the Open Government Licence, but no licence text was found on the pages checked
+license: OGL-UK-3.0 (Welsh Government copyright statement, site-wide; also linked from StatsWales)
 attribution: Welsh Government, Schools' census results
 notes: |
-  Human-verified 2026-10-31: HTTP 200. The page describes "An annual report that presents data collected from the Pupil Level Annual School Census, with additional information on the schools and their teachers and support staff". It shows "First published: 24 July 2014", "Last updated: 5 August 2026", and the latest release, "Schools' census results: January 2026". More detailed tables are on StatsWales, whose old address redirects to stats.gov.wales. The licence and formats are unverified.
+  Human-verified 2026-10-31: HTTP 200. The page describes "An annual report that presents data collected from the Pupil Level Annual School Census, with additional information on the schools and their teachers and support staff". It shows "First published: 24 July 2014", "Last updated: 5 August 2026", and the latest release, "Schools' census results: January 2026". More detailed tables are on StatsWales, whose old address redirects to stats.gov.wales. The formats are unverified.
   Reachability is touchy. On 2026-10-31 a browser-UA curl got HTTP 200 (once after 11 s, once in 0.3 s), a curl with no user agent got HTTP 403, and scripts/check_links.py timed out at its 12 s limit. A link-checker flag on this entry may be slowness or bot filtering rather than a dead page.
+  Licence checked 2026-10-31: the Welsh Government copyright statement (https://www.gov.wales/copyright-statement), linked from the footers of the release page and of StatsWales, says "You may use and re-use the information featured in this website (not including logos) free of charge in any format or medium, under the terms of the Open Government Licence", linking OGL v3. The release and its .ods file state no licence of their own.

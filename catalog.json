@@ -51,9 +51,9 @@
         "temporal": "varies by survey",
         "cadence": "annual"
       },
-      "license": "CC-BY-4.0 (Argentina.gob.ar content licence)",
+      "license": "CC-BY-4.0 (datos.gob.ar Aprender dataset listings; Argentina.gob.ar Términos y Condiciones)",
       "attribution": "Secretaría de Educación, Ministerio de Capital Humano — Información y Evaluación Educativa",
-      "notes": "Human-verified 2026-10-31: HTTP 200. The old URL /educacion/evaluacion-e-informacion-educativa redirects here. The page lists \"Datos abiertos: Bases de datos de Aprender y Relevamiento Anual\", \"Reportes por escuela: Plataforma de microdatos por escuela\", \"Padrón Nacional de Establecimientos Educativos\", and SICDIE, the indicators query system. The datos-abiertos page footer states \"Los contenidos de Argentina.gob.ar están licenciados bajo Creative Commons Atribución 4.0 Internacional\". The publisher name is taken from the URL path and ministry branding, and should be confirmed by a steward. The national open data portal, datos.gob.ar, did not respond this session.\n"
+      "notes": "Human-verified 2026-10-31: HTTP 200. The old URL /educacion/evaluacion-e-informacion-educativa redirects here. The page lists \"Datos abiertos: Bases de datos de Aprender y Relevamiento Anual\", \"Reportes por escuela: Plataforma de microdatos por escuela\", \"Padrón Nacional de Establecimientos Educativos\", and SICDIE, the indicators query system. The publisher name is taken from the URL path and ministry branding, and should be confirmed by a steward.\nLicence checked 2026-10-31: the footer line \"Los contenidos de Argentina.gob.ar están licenciados bajo Creative Commons Atribución 4.0 Internacional\", quoted here earlier, sits inside an HTML comment on the page and is not displayed. The evidence instead: the site's terms (https://www.argentina.gob.ar/terminos-y-condiciones) say \"El Administrador licencia todos sus contenidos bajo la licencia Creative Commons Atribución 4.0 Internacional… excepto cuando se declare lo contrario\", and on datos.gob.ar the Aprender datasets (educacion-aprender-2019, 2021, 2022, 2023 and 2024) are listed with license_id CC-BY-4.0.\n"
     },
     {
       "id": "brazil-inep-microdados",
@@ -102,9 +102,9 @@
         "temporal": "varies by survey (multiple decades for the School Census)",
         "cadence": "annual"
       },
-      "license": "CC-BY-ND-3.0 (gov.br/inep site content licence; no separate licence stated for the microdata files)",
+      "license": "CC-BY (INEP's dataset listings on dados.gov.br; version unspecified; the gov.br/inep site footer says CC-BY-ND-3.0)",
       "attribution": "INEP — Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira",
-      "notes": "Human-verified 2026-10-31: HTTP 200. The page lists microdata for the Censo Escolar, the Censo da Educação Superior, Enade, and other INEP surveys and exams. It notes that file formats are being restructured to remove the possibility of identifying individuals. The INEP Dados Abertos page states \"Todo o conteúdo deste site está publicado sob a licença Creative Commons Atribuição-SemDerivações 3.0 Não Adaptada\" (CC BY-ND 3.0). That is a site-wide statement, recorded as found; a steward should confirm whether it is meant to cover the microdata. The csv/zip formats come from INEP's usual distribution and weren't checked.\n"
+      "notes": "Human-verified 2026-10-31: HTTP 200. The page lists microdata for the Censo Escolar, the Censo da Educação Superior, Enade, and other INEP surveys and exams. It notes that file formats are being restructured to remove the possibility of identifying individuals. The INEP Dados Abertos page states \"Todo o conteúdo deste site está publicado sob a licença Creative Commons Atribuição-SemDerivações 3.0 Não Adaptada\" (CC BY-ND 3.0). That is a site-wide statement. The csv/zip formats come from INEP's usual distribution and weren't checked.\nLicence checked 2026-10-31: INEP's own listings on dados.gov.br mark the microdata \"Creative Commons Attribution\" (licence id cc-by, no version given): for example \"Microdados públicos do Censo Escolar da Educação Básica\" (https://dados.gov.br/dados/conjuntos-dados/inep-microdados-do-censo-escolar-da-educacao-basica, metadata updated 24/02/2026), and likewise the Censo da Educação Superior, Enem, Saeb, Enade, Encceja and ANA. The Enamed microdata are listed as cc-zero. The dataset-level declaration is taken over the site footer's CC BY-ND 3.0.\n"
     },
     {
       "id": "cepalstat",
@@ -256,9 +256,9 @@
         "temporal": "2014-2022 for the enrollment databases listed",
         "cadence": "annual"
       },
-      "license": "unverified — no license found on the page checked",
+      "license": "CC-BY-NC-4.0 (MEP Términos y Condiciones de uso, site-wide; the same sentence also says \"dominio público\", so a steward should confirm)",
       "attribution": "Ministerio de Educación Pública de Costa Rica, Departamento de Análisis Estadístico",
-      "notes": "Human-verified 2026-10-31: HTTP 200 (the old /indicadores-educativos URL redirects here). The page offers \"estadísticas oficiales, tableros interactivos, bases de datos, documentos metodológicos y publicaciones analíticas\". It lists downloadable databases such as \"Matrícula inicial colegios 2014-2022 por año cursado y sexo\" and \"Matrícula inicial Escuelas Diurnas 2014-2022\". The xlsx format and the license are unverified. It is the only Central American national education source reachable this session.\n"
+      "notes": "Human-verified 2026-10-31: HTTP 200 (the old /indicadores-educativos URL redirects here). The page offers \"estadísticas oficiales, tableros interactivos, bases de datos, documentos metodológicos y publicaciones analíticas\". It lists downloadable databases such as \"Matrícula inicial colegios 2014-2022 por año cursado y sexo\" and \"Matrícula inicial Escuelas Diurnas 2014-2022\". The xlsx format is unverified. It is the only Central American national education source reachable this session.\nLicence checked 2026-10-31: MEP's terms (https://www.mep.go.cr/terminos-condiciones-uso), linked from the site footer, say \"Todo el material producido por la institución se encuentra bajo el dominio público, con excepción de los datos personales, los límites que están establecidos en la Constitución y otras leyes aprobadas por la Asamblea Legislativa bajo una licencia de Creative Commons Reconocimiento-NoComercial 4.0 Internacional\", with a rel=\"license\" link to CC BY-NC 4.0. The sentence names both public domain and CC BY-NC, so the stricter reading is recorded. It is site-wide; the statistics page and its files carry no licence of their own.\n"
     },
     {
       "id": "crdc-civil-rights-data-collection",
@@ -664,9 +664,9 @@
         "temporal": "annual October census rounds",
         "cadence": "annual"
       },
-      "license": "unverified — the site footer shows Crown copyright; no Open Government Licence statement found on the pages checked",
+      "license": "OGL-UK-3.0 (Department of Education NI Crown copyright statement, site-wide)",
       "attribution": "Department of Education Northern Ireland, School enrolments",
-      "notes": "Human-verified 2026-10-31: HTTP 200. The old /topics/statistics-and-research/school-enrolments URL redirects here. The overview page (https://www.education-ni.gov.uk/articles/school-enrolments-overview) says the census \"takes place in October of each year and is a count of all pupils attending schools in Northern Ireland\" and lists the characteristics collected. The topic page links school-level data and school population projections. The licence and formats are unverified.\n"
+      "notes": "Human-verified 2026-10-31: HTTP 200. The old /topics/statistics-and-research/school-enrolments URL redirects here. The overview page (https://www.education-ni.gov.uk/articles/school-enrolments-overview) says the census \"takes place in October of each year and is a count of all pupils attending schools in Northern Ireland\" and lists the characteristics collected. The topic page links school-level data and school population projections. The formats are unverified.\nLicence checked 2026-10-31: the footer's Crown copyright link (https://www.education-ni.gov.uk/articles/crown-copyright-education) says \"You may use and re-use the information featured on this website (not including logos) free of charge in any format or medium, under the terms of the Open Government Licence\", linking OGL v3. It is site-wide; the school-level data page states no licence of its own.\n"
     },
     {
       "id": "peru-minedu-escale",
@@ -920,9 +920,9 @@
         "temporal": "1970-present (indicator-dependent)",
         "cadence": "annual"
       },
-      "license": "CC-BY-SA-3.0 IGO (UIS terms of use)",
+      "license": "CC-BY-SA-4.0 (UIS Data Browser terms and conditions; UIS Data API documentation)",
       "attribution": "UNESCO Institute for Statistics (UIS)",
-      "notes": "Verified reachable this session (HTTP 200, redirected to www.uis.unesco.org/en). UIS Data Browser is the primary interactive access point; bulk SDMX downloads also available. Seeded as this vertical's first international (non-US) source per operator request to seed the new verticals international-first.\n"
+      "notes": "Verified reachable this session (HTTP 200, redirected to www.uis.unesco.org/en). UIS Data Browser is the primary interactive access point; bulk SDMX downloads also available. Seeded as this vertical's first international (non-US) source per operator request to seed the new verticals international-first.\nLicence checked 2026-10-31: the Data Browser terms (https://databrowser.uis.unesco.org/terms-and-conditions) say \"The work of the UIS is licensed under the Creative Commons Attribution-ShareAlike 4.0 International license\" and ask for credit as \"Source: … UNESCO Institute for Statistics (UIS), complete URL, date of extraction\"; the API documentation (https://api.uis.unesco.org/api/public/documentation/) says \"The data is licensed under the Creative Commons Attribution-ShareAlike 4.0 International license.\" The earlier string was CC BY-SA 3.0 IGO.\n"
     },
     {
       "id": "uruguay-ineed-aristas",
@@ -1017,9 +1017,9 @@
         "temporal": "January census rounds (series first published 2014; latest January 2026)",
         "cadence": "annual"
       },
-      "license": "unverified — Welsh Government statistics are normally released under the Open Government Licence, but no licence text was found on the pages checked",
+      "license": "OGL-UK-3.0 (Welsh Government copyright statement, site-wide; also linked from StatsWales)",
       "attribution": "Welsh Government, Schools' census results",
-      "notes": "Human-verified 2026-10-31: HTTP 200. The page describes \"An annual report that presents data collected from the Pupil Level Annual School Census, with additional information on the schools and their teachers and support staff\". It shows \"First published: 24 July 2014\", \"Last updated: 5 August 2026\", and the latest release, \"Schools' census results: January 2026\". More detailed tables are on StatsWales, whose old address redirects to stats.gov.wales. The licence and formats are unverified.\nReachability is touchy. On 2026-10-31 a browser-UA curl got HTTP 200 (once after 11 s, once in 0.3 s), a curl with no user agent got HTTP 403, and scripts/check_links.py timed out at its 12 s limit. A link-checker flag on this entry may be slowness or bot filtering rather than a dead page.\n"
+      "notes": "Human-verified 2026-10-31: HTTP 200. The page describes \"An annual report that presents data collected from the Pupil Level Annual School Census, with additional information on the schools and their teachers and support staff\". It shows \"First published: 24 July 2014\", \"Last updated: 5 August 2026\", and the latest release, \"Schools' census results: January 2026\". More detailed tables are on StatsWales, whose old address redirects to stats.gov.wales. The formats are unverified.\nReachability is touchy. On 2026-10-31 a browser-UA curl got HTTP 200 (once after 11 s, once in 0.3 s), a curl with no user agent got HTTP 403, and scripts/check_links.py timed out at its 12 s limit. A link-checker flag on this entry may be slowness or bot filtering rather than a dead page.\nLicence checked 2026-10-31: the Welsh Government copyright statement (https://www.gov.wales/copyright-statement), linked from the footers of the release page and of StatsWales, says \"You may use and re-use the information featured in this website (not including logos) free of charge in any format or medium, under the terms of the Open Government Licence\", linking OGL v3. The release and its .ods file state no licence of their own.\n"
     }
   ]
 }

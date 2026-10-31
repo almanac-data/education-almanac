@@ -35,7 +35,8 @@ coverage:
   spatial: Northern Ireland (school, former Education and Library Board, and district council level)
   temporal: annual October census rounds
   cadence: annual
-license: unverified — the site footer shows Crown copyright; no Open Government Licence statement found on the pages checked
+license: OGL-UK-3.0 (Department of Education NI Crown copyright statement, site-wide)
 attribution: Department of Education Northern Ireland, School enrolments
 notes: |
-  Human-verified 2026-10-31: HTTP 200. The old /topics/statistics-and-research/school-enrolments URL redirects here. The overview page (https://www.education-ni.gov.uk/articles/school-enrolments-overview) says the census "takes place in October of each year and is a count of all pupils attending schools in Northern Ireland" and lists the characteristics collected. The topic page links school-level data and school population projections. The licence and formats are unverified.
+  Human-verified 2026-10-31: HTTP 200. The old /topics/statistics-and-research/school-enrolments URL redirects here. The overview page (https://www.education-ni.gov.uk/articles/school-enrolments-overview) says the census "takes place in October of each year and is a count of all pupils attending schools in Northern Ireland" and lists the characteristics collected. The topic page links school-level data and school population projections. The formats are unverified.
+  Licence checked 2026-10-31: the footer's Crown copyright link (https://www.education-ni.gov.uk/articles/crown-copyright-education) says "You may use and re-use the information featured on this website (not including logos) free of charge in any format or medium, under the terms of the Open Government Licence", linking OGL v3. It is site-wide; the school-level data page states no licence of its own.
