@@ -1,0 +1,45 @@
+id: mexico-inegi-caracteristicas-educativas
+type: dataset
+title: INEGI — Educational Characteristics of the Population (Mexico)
+description: |
+  Mexico's national statistics institute's education topic: school attendance, literacy, and educational attainment from the population censuses and intercensal survey, plus enrollment, efficiency, and staffing indicators for the national education system.
+publisher: Instituto Nacional de Estadística y Geografía (INEGI), Mexico
+jurisdiction:
+  scope: national
+  country: MX
+topics:
+- attainment
+- literacy
+- enrollment
+- census
+- mexico
+source:
+  canonical_url: https://www.inegi.org.mx/temas/educacion/
+access:
+  method:
+  - web
+  - bulk
+  - api
+  auth_required: false
+  auth_note: null
+  rate_limit: null
+format:
+- csv
+- xlsx
+status: live
+status_since: '2026-10-31'
+status_source: curator
+observed:
+  checked: '2026-10-31'
+  reachable: null
+  http_status: null
+  final_url: null
+coverage:
+  spatial: Mexico (national and state level)
+  temporal: 2000-present for the enrollment indicators shown; census years for population characteristics
+  cadence: annual
+license: INEGI Términos de Libre Uso de la Información (free use with attribution)
+attribution: "Fuente: INEGI, <nombre del producto>"
+notes: |
+  Human-verified 2026-10-31: HTTP 200, page title "Características educativas de la población". It describes school attendance, literacy, and schooling data, plus "el número de alumnos inscritos en los diferentes niveles educativos, indicadores de eficiencia y sobre los recursos humanos del sistema educativo nacional". It shows a net enrollment rate chart covering 2000-2022. INEGI's terms page (https://www.inegi.org.mx/inegi/terminos.html) allows use under its "Términos de Libre Uso", with attribution in the form "Fuente: INEGI, nombre del producto". The enrollment figures come from the Secretaría de Educación Pública, whose sites (sep.gob.mx, planeacion.sep.gob.mx) and Mejoredu's did not respond this session. API access through INEGI's indicator API wasn't checked.
+  scripts/check_links.py got HTTP 403 (bot protection) the same day, although a plain curl with a browser user agent and headless Chromium both got HTTP 200. Blocked is not dead; a later probe may report it as blocked.
