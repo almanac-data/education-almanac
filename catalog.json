@@ -1,11 +1,64 @@
 {
   "name": "Education Almanac",
   "description": "An open, versioned index of public education data.",
-  "count": 9,
+  "count": 10,
   "by_status": {
-    "live": 9
+    "live": 10
   },
   "entries": [
+    {
+      "id": "cepalstat",
+      "type": "dataset",
+      "title": "CEPALSTAT (ECLAC statistics portal)",
+      "description": "The UN Economic Commission for Latin America and the Caribbean's statistics portal: comparable regional and country indicators across demographic and social themes (including education), economic, and environmental statistics, with open data and an API.\n",
+      "publisher": "United Nations Economic Commission for Latin America and the Caribbean (ECLAC / CEPAL)",
+      "jurisdiction": {
+        "scope": "multilateral",
+        "country": null
+      },
+      "topics": [
+        "education",
+        "social-indicators",
+        "latin-america",
+        "caribbean",
+        "regional"
+      ],
+      "source": {
+        "canonical_url": "https://statistics.cepal.org/portal/cepalstat/index.html"
+      },
+      "access": {
+        "method": [
+          "web",
+          "api",
+          "bulk"
+        ],
+        "auth_required": false,
+        "auth_note": null,
+        "rate_limit": null
+      },
+      "format": [
+        "csv",
+        "json",
+        "xlsx"
+      ],
+      "status": "live",
+      "status_since": "2026-10-31",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-10-31",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "Latin America and the Caribbean (country and regional aggregates)",
+        "temporal": "varies by indicator",
+        "cadence": "irregular"
+      },
+      "license": "unverified — ECLAC terms of use page (cepal.org) returned a Cloudflare challenge this session",
+      "attribution": "ECLAC, CEPALSTAT",
+      "notes": "Human-verified 2026-10-31: HTTP 200 to curl; the content only renders with JavaScript. In headless Chromium the menu shows \"ESTADÍSTICAS E INDICADORES\", \"OPEN DATA/API\", and a \"Demográficos y sociales\" theme listing \"Población, maternidad, empleo, educación, ...\". The footer links ECLAC's terms and conditions, but cepal.org returned a Cloudflare challenge, so the license is left unverified. The formats are assumed from the open data/API section and weren't checked.\n"
+    },
     {
       "id": "college-scorecard",
       "type": "dataset",
