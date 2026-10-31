@@ -1,9 +1,9 @@
 {
   "name": "Education Almanac",
   "description": "An open, versioned index of public education data.",
-  "count": 6,
+  "count": 7,
   "by_status": {
-    "live": 6
+    "live": 7
   },
   "entries": [
     {
@@ -207,6 +207,58 @@
       "license": "public-domain (US Gov work)",
       "attribution": "National Center for Education Statistics, Common Core of Data",
       "notes": "Human-verified 2026-10-31: HTTP 200. The page links CCD Data Files, the CCD Data File Tool, data tables, and the School Locator; the Data Files page (https://nces.ed.gov/ccd/files.asp) loads in headless Chromium. The csv format and the multi-decade span come from NCES's usual CCD distribution and weren't checked file by file.\n"
+    },
+    {
+      "id": "nces-digest-of-education-statistics",
+      "type": "dataset",
+      "title": "NCES Digest of Education Statistics",
+      "description": "NCES's annual compendium of statistical tables covering American education from prekindergarten through graduate school — enrollment, teachers, attainment, finance, outcomes — drawn from government and private sources.\n",
+      "publisher": "U.S. Department of Education, National Center for Education Statistics (NCES)",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
+      "topics": [
+        "compendium",
+        "k12",
+        "higher-education",
+        "finance",
+        "attainment"
+      ],
+      "source": {
+        "canonical_url": "https://nces.ed.gov/programs/digest/"
+      },
+      "access": {
+        "method": [
+          "web",
+          "bulk"
+        ],
+        "auth_required": false,
+        "auth_note": null,
+        "rate_limit": null
+      },
+      "format": [
+        "xlsx",
+        "html",
+        "pdf"
+      ],
+      "status": "live",
+      "status_since": "2026-10-31",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-10-31",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "United States (some international comparison tables)",
+        "temporal": "release years 1995-present online (PDF editions 1990-2020)",
+        "cadence": "annual"
+      },
+      "license": "public-domain (US Gov work)",
+      "attribution": "National Center for Education Statistics, Digest of Education Statistics",
+      "notes": "Human-verified 2026-10-31: HTTP 200. The page offers the latest version of all Digest tables, archived tables for release years 1995 through 2025, and PDF versions from 1990 to 2020. Downloadable table formats (xlsx) are assumed from the Digest's standard table pages.\n"
     },
     {
       "id": "nces-ipeds",
