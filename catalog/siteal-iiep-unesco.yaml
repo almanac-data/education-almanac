@@ -1,0 +1,41 @@
+id: siteal-iiep-unesco
+type: dataset
+title: SITEAL — Education Trends Information System in Latin America
+description: |
+  The IIEP-UNESCO regional office's information system on education in Latin America: country profiles, regional overviews, statistical indicators, and databases of education policies and regulations for 19 countries, including Central America.
+publisher: UNESCO International Institute for Educational Planning (IIEP-UNESCO), Latin America and the Caribbean office
+jurisdiction:
+  scope: multilateral
+  country: null
+topics:
+- education
+- policy
+- indicators
+- latin-america
+- central-america
+source:
+  canonical_url: https://siteal.iiep.unesco.org/
+access:
+  method:
+  - web
+  auth_required: false
+  auth_note: null
+  rate_limit: null
+format:
+- html
+status: live
+status_since: '2026-10-31'
+status_source: curator
+observed:
+  checked: '2026-10-31'
+  reachable: null
+  http_status: null
+  final_url: null
+coverage:
+  spatial: 19 Latin American countries (Argentina, Bolivia, Brasil, Colombia, Costa Rica, Cuba, Chile, República Dominicana, Ecuador, El Salvador, Guatemala, Honduras, México, Nicaragua, Panamá, Paraguay, Perú, Uruguay, Venezuela)
+  temporal: varies by indicator
+  cadence: irregular
+license: unverified — SITEAL links IIEP-UNESCO terms of use; no license text found on the pages checked
+attribution: IIEP-UNESCO, SITEAL
+notes: |
+  Human-verified 2026-10-31: HTTP 200 (www.siteal.iiep.unesco.org redirects to siteal.iiep.unesco.org). The page lists country profiles for the 19 countries above, regional overviews, "Bases de información", "Indicadores estadísticos", and "Políticas y normativas". It is the most practical regional source for Central American countries without a reachable national education statistics site this session; Guatemala's statistics office timed out. The IIEP terms page rendered no license text, so the license is left unverified. Download formats weren't checked.
