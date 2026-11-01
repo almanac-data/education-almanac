@@ -1,9 +1,9 @@
 {
   "name": "Education Almanac",
   "description": "An open, versioned index of public education data.",
-  "count": 24,
+  "count": 25,
   "by_status": {
-    "live": 24
+    "live": 25
   },
   "entries": [
     {
@@ -413,6 +413,58 @@
       "license": "CC-BY-4.0 (Eurostat copyright notice and free re-use of data)",
       "attribution": "Eurostat",
       "notes": "Human-verified 2026-10-31: HTTP 200. The page shows the Education and training database with selected and detailed datasets. Eurostat's copyright notice (https://ec.europa.eu/eurostat/help/copyright-notice) licenses its content under CC BY 4.0. API and bulk access go through Eurostat's general dissemination services. The topic list in the description reflects Eurostat's usual education tables, not a check of each dataset.\n"
+    },
+    {
+      "id": "iea-pirls-international-database",
+      "type": "dataset",
+      "title": "IEA PIRLS International Database (Progress in International Reading Literacy Study)",
+      "description": "Student, home, teacher and school microdata and reading achievement scores from IEA's PIRLS assessments of fourth-grade reading every five years from 2001 to 2021, including ePIRLS and PIRLS Literacy 2016, with documentation for secondary analysis.\n",
+      "publisher": "International Association for the Evaluation of Educational Achievement (IEA); study directed by the TIMSS & PIRLS International Study Center, Boston College",
+      "jurisdiction": {
+        "scope": "international-ngo",
+        "country": null
+      },
+      "topics": [
+        "assessment",
+        "learning-outcomes",
+        "reading",
+        "international",
+        "microdata"
+      ],
+      "source": {
+        "canonical_url": "https://www.iea.nl/data-tools/repository/pirls"
+      },
+      "access": {
+        "method": [
+          "web",
+          "bulk"
+        ],
+        "auth_required": false,
+        "auth_note": "No registration for public-use files, but downloading requires ticking \"I agree to the terms and conditions\" (IEA Disclaimer and License Agreement). Restricted-use variables require an application and a non-disclosure agreement.",
+        "rate_limit": null
+      },
+      "format": [
+        "sas",
+        "spss",
+        "r"
+      ],
+      "status": "live",
+      "status_since": "2026-11-01",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-11-01",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "countries and benchmarking entities participating in each PIRLS cycle",
+        "temporal": "2001-2021 (cycles 2001, 2006, 2011, 2016, 2021; PIRLS 2026 under way)",
+        "cadence": "irregular"
+      },
+      "license": "IEA Terms and conditions and rights of use (non-commercial, educational and research purposes only; redistribution prohibited without IEA's written permission)",
+      "attribution": "SOURCE: PIRLS (year) Assessment. Copyright © (year) International Association for the Evaluation of Educational Achievement (IEA). Publisher: TIMSS & PIRLS International Study Center, Lynch School of Education, Boston College.",
+      "notes": "Human-verified 2026-11-01: HTTP 200 (curl and headless Chromium) on IEA's Data Repository. The issue's URL, https://timss-and-pirls.bc.edu/, did not respond. The study center's real host, https://timssandpirls.bc.edu/, answers and mentions the \"PIRLS 2026 Field Test\". The page describes PIRLS as \"directed by the TIMSS and PIRLS International Study Center at Boston College\" and \"the global standard for assessing trends in reading achievement at the fourth grade\". It lists PIRLS 2021 (SAS, SPSS, R), PIRLS 2016, ePIRLS 2016, PIRLS Literacy 2016, PIRLS 2011, \"Joint TIMSS & PIRLS 2011\", PIRLS 2006 and PIRLS 2001 (SAS, SPSS). Access is the same as for TIMSS (see iea-timss-international-database): a click-through agreement, no account, and restricted-use files on application. It is catalogued separately because the study and repository page are separate. The files were not opened.\nLicence checked 2026-11-01: as for TIMSS, the repository's terms link https://www.iea.nl/sites/default/files/2019-05/Disclaimer%20and%20License%20Agreement.pdf. It says \"All publications and restricted use items by TIMSS, PIRLS, other IEA studies, and IEA ... are for non-commercial, educational and research purposes only\", and that \"Commercial exploitation, distribution, redistribution, reproduction ... are prohibited unless written permission has been provided by IEA\".\n"
     },
     {
       "id": "iea-timss-international-database",
