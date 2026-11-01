@@ -1,0 +1,44 @@
+id: colombia-icfes-dataicfes
+type: dataset
+title: Colombia ICFES DataIcfes (national exam microdata)
+description: |
+  DataIcfes is the data repository of Colombia's Instituto Colombiano para la Evaluación de la Educación. It holds anonymised results databases from the national exams (Saber 3°, 5°, 7° and 9°, Saber 11°, Saber TyT, Saber Pro and others), with evaluees' socioeconomic information, for research on education quality.
+publisher: Instituto Colombiano para la Evaluación de la Educación (ICFES)
+jurisdiction:
+  scope: national
+  country: CO
+topics:
+- assessment
+- learning-outcomes
+- national-exams
+- microdata
+- colombia
+source:
+  canonical_url: https://www.icfes.gov.co/investigaciones/data-icfes/
+access:
+  method:
+  - web
+  - bulk
+  auth_required: true
+  auth_note: Registration (a Microsoft Forms request linked as "Regístrate al DataIcfes") to obtain DataIcfes access credentials
+  rate_limit: null
+format:
+- txt
+status: live
+status_since: '2026-11-01'
+status_source: curator
+observed:
+  checked: '2026-11-01'
+  reachable: null
+  http_status: null
+  final_url: null
+coverage:
+  spatial: Colombia (student, school and higher-education-institution level)
+  temporal: varies by exam (the Saber 11 file on datos.gov.co covers 2010-2022)
+  cadence: irregular
+license: unverified — the DataIcfes page states no licence; ICFES's own exam datasets on Colombia's open data portal (datos.gov.co) are labelled CC-BY-SA-4.0
+attribution: Instituto Colombiano para la Evaluación de la Educación (ICFES), DataIcfes
+notes: |
+  Human-verified 2026-11-01: HTTP 200 (curl and headless Chromium). The issue saw the DataIcfes path redirect to the homepage; this session https://www.icfes.gov.co/investigaciones/data-icfes/ loaded directly, reached from the "Investigaciones" page ("Ir a DataIcfes"). It reads "¡Nos renovamos! Accede a las bases de datos de las distintas pruebas aplicadas" and "¡Realiza el registro para crear tus nuevas credenciales de acceso!". The registration button links to a Microsoft Forms page (forms.office.com). It reports "6 Pruebas", "644 bases de datos anonimizadas", "10985 Establecimientos educativos" and "260 Instituciones Educativas de Educación Superior". The FAQ says files are ".txt (o archivos planos)" delimited by «|» or similar, and mentions a file "que nos envió en el primer correo". So delivery may be partly by email; how it works after registration was not checked, and the portal behind the login was not seen (no account was created). The page also links a data inventory and publication calendar (as images).
+  ICFES also publishes some exam files itself on Colombia's open data portal (Socrata), for example "Resultados únicos Saber 11" (https://www.datos.gov.co/d/kgxf-xxbe, attribution "Instituto Colombiano para la Evaluación de la Educación - ICFES", 7,109,704 rows, periods 20101-20224, updated 2023-08-23), plus Saber Pro and Saber TyT. Those are not the canonical home and were not catalogued separately.
+  Licence checked 2026-11-01: no licence or terms of use appear on the DataIcfes page (the footer reads "Copyright 2021 - Todos los derechos reservados Gobierno de Colombia"). The datos.gov.co metadata for ICFES's Saber datasets gives "Creative Commons Attribution | Share Alike 4.0 International". That may not cover data obtained through DataIcfes, so the licence is left unverified.
