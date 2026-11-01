@@ -1,9 +1,9 @@
 {
   "name": "Education Almanac",
   "description": "An open, versioned index of public education data.",
-  "count": 21,
+  "count": 22,
   "by_status": {
-    "live": 21
+    "live": 22
   },
   "entries": [
     {
@@ -465,6 +465,57 @@
       "license": "INEGI Términos de Libre Uso de la Información (free use with attribution)",
       "attribution": "Fuente: INEGI, <nombre del producto>",
       "notes": "Human-verified 2026-10-31: HTTP 200, page title \"Características educativas de la población\". It describes school attendance, literacy, and schooling data, plus \"el número de alumnos inscritos en los diferentes niveles educativos, indicadores de eficiencia y sobre los recursos humanos del sistema educativo nacional\". It shows a net enrollment rate chart covering 2000-2022. INEGI's terms page (https://www.inegi.org.mx/inegi/terminos.html) allows use under its \"Términos de Libre Uso\", with attribution in the form \"Fuente: INEGI, nombre del producto\". The enrollment figures come from the Secretaría de Educación Pública, whose sites (sep.gob.mx, planeacion.sep.gob.mx) and Mejoredu's did not respond this session. API access through INEGI's indicator API wasn't checked.\nscripts/check_links.py got HTTP 403 (bot protection) the same day, although a plain curl with a browser user agent and headless Chromium both got HTTP 200. Blocked is not dead; a later probe may report it as blocked.\n"
+    },
+    {
+      "id": "mexico-sep-formato-911",
+      "type": "dataset",
+      "title": "Mexico SEP Formato 911 School Census Statistics (SIGED open data)",
+      "description": "Open data from the Secretaría de Educación Pública's Formato 911 school census: students, teachers and schools at the start of each school year for basic, upper-secondary (media superior) and higher education, school-level files in CSV and TXT. They are published through SEP's Sistema de Información y Gestión Educativa (SIGED), alongside the DGPPYEE's national statistical publications.\n",
+      "publisher": "Secretaría de Educación Pública (SEP), Dirección General de Planeación, Programación y Estadística Educativa (DGPPYEE)",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "MX"
+      },
+      "topics": [
+        "schools",
+        "enrollment",
+        "teachers",
+        "school-census",
+        "mexico"
+      ],
+      "source": {
+        "canonical_url": "https://siged.sep.gob.mx/SIGED/datos_abiertos.html"
+      },
+      "access": {
+        "method": [
+          "web",
+          "bulk"
+        ],
+        "auth_required": false,
+        "auth_note": null,
+        "rate_limit": null
+      },
+      "format": [
+        "csv",
+        "txt"
+      ],
+      "status": "live",
+      "status_since": "2026-11-01",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-11-01",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "Mexico (national, state and school level)",
+        "temporal": "school years 2019-2020 to 2024-2025 in the open data files; DGPPYEE historical series back to 1893-1894",
+        "cadence": "annual"
+      },
+      "license": "unverified — no data-specific licence on SIGED or DGPPYEE pages; the linked gob.mx site terms are general and internally inconsistent",
+      "attribution": "Secretaría de Educación Pública, SIGED, Estadísticos del formato 911",
+      "notes": "Human-verified 2026-11-01: SIGED (https://siged.sep.gob.mx/SIGED/) answered HTTP 200 to curl. The open data page and its file list load by JavaScript from api.siged.sep.gob.mx, which answered only in headless Chromium (curl failed), so the vertical should treat this source as headless. www.sep.gob.mx still refused connections (curl failed; Chromium net::ERR_CONNECTION_RESET), and mejoredu.gob.mx did not respond. www.planeacion.sep.gob.mx failed in curl but loaded in headless Chromium (HTTP 200). The SIGED \"Datos abiertos\" page offers \"Datos abiertos de alumnado, docentes y escuelas (Formato 911)\", INIFED 2013-2018 infrastructure data and the Catálogo de Centros de Trabajo. The Formato 911 list (API group DATABI911) had 48 files, e.g. \"Estadísticos del formato 911, educación básica, inicio de cursos ciclo escolar 2024-2025. (En fomato CSV)\", updated 03/10/2025. They cover básica, media superior, superior escolarizada and superior no escolarizada, from 2019-2020 to 2024-2025, in CSV and TXT zips. No 2025-2026 file was listed. DGPPYEE's \"Estadística educativa\" page (https://www.planeacion.sep.gob.mx/estadisticaeducativas.aspx) offers state summaries for \"Ciclo 2025-2026\" (\"Última actualización: Septiembre 2026\"), a historical series and forecasts from 1990-1991 to 2030-2031, and national historical statistics \"a partir del ciclo escolar 1893-1894\". These publications are not covered here beyond the mention. INEGI's education data is catalogued separately as mexico-inegi-caracteristicas-educativas. The zips were not opened.\nLicence checked 2026-11-01: neither SIGED nor DGPPYEE states a data licence. SIGED's footer links gob.mx's general \"Términos y Condiciones\" (https://www.gob.mx/terminos), which say \"La información del portal gob.mx es pública a menos que se indique lo contrario\" and require citing the electronic location and date of consultation. Elsewhere the same page limits downloads \"solamente para su uso personal y no para un uso comercial\". They are general and contradictory site terms, so no licence is asserted.\n"
     },
     {
       "id": "naep-nations-report-card",
