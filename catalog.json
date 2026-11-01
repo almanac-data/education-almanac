@@ -41,10 +41,12 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "checked": "2026-11-01",
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.argentina.gob.ar/capital-humano/educacion/informacion-y-evaluacion-educativa",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "Argentina (national, provincial, school level)",
@@ -92,10 +94,12 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "checked": "2026-11-01",
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "Brazil (school, institution, and individual level, de-identified)",
@@ -145,10 +149,12 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "checked": "2026-11-01",
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://statistics.cepal.org/portal/cepalstat/index.html",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "Latin America and the Caribbean (country and regional aggregates)",
@@ -197,10 +203,12 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "checked": "2026-11-01",
+        "reachable": true,
+        "http_status": 403,
+        "final_url": "https://collegescorecard.ed.gov/data/",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "United States (institution and field-of-study level)",
@@ -248,9 +256,11 @@
       "status_source": "curator",
       "observed": {
         "checked": "2026-11-01",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.icfes.gov.co/investigaciones/data-icfes/",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "Colombia (student, school and higher-education-institution level)",
@@ -296,10 +306,12 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "checked": "2026-11-01",
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.mep.go.cr/acerca-del-mep/analisis-estadistico/estadisticas-educativas",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "Costa Rica (school level)",
@@ -346,10 +358,12 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "checked": "2026-11-01",
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://civilrightsdata.ed.gov/",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "United States (all public districts and schools in the 50 states, DC, and Puerto Rico)",
@@ -400,10 +414,12 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "checked": "2026-11-01",
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://ec.europa.eu/eurostat/web/education-and-training/database",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "EU member states (plus some EFTA and candidate countries)",
@@ -453,9 +469,11 @@
       "status_source": "curator",
       "observed": {
         "checked": "2026-11-01",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.iea.nl/data-tools/repository/pirls",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "countries and benchmarking entities participating in each PIRLS cycle",
@@ -509,9 +527,11 @@
       "status_source": "curator",
       "observed": {
         "checked": "2026-11-01",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.iea.nl/data-tools/repository/timss",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "countries and benchmarking entities participating in each TIMSS cycle",
@@ -560,10 +580,12 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "checked": "2026-11-01",
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.inegi.org.mx/temas/educacion/",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "Mexico (national and state level)",
@@ -612,9 +634,11 @@
       "status_source": "curator",
       "observed": {
         "checked": "2026-11-01",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://siged.sep.gob.mx/SIGED/datos_abiertos.html",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "Mexico (national, state and school level)",
@@ -661,10 +685,12 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "checked": "2026-11-01",
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.nationsreportcard.gov/",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "United States (nation, states, participating urban districts)",
@@ -711,10 +737,12 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "checked": "2026-11-01",
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://nces.ed.gov/ccd/",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "United States (every public school and district)",
@@ -763,10 +791,12 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "checked": "2026-11-01",
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://nces.ed.gov/programs/digest/",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "United States (some international comparison tables)",
@@ -814,10 +844,12 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "checked": "2026-11-01",
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://nces.ed.gov/ipeds/",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "United States (institution level)",
@@ -863,10 +895,12 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "checked": "2026-11-01",
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.education-ni.gov.uk/topics/school-enrolments",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "Northern Ireland (school, former Education and Library Board, and district council level)",
@@ -915,9 +949,11 @@
       "status_source": "curator",
       "observed": {
         "checked": "2026-11-01",
-        "reachable": null,
+        "reachable": false,
         "http_status": null,
-        "final_url": null
+        "final_url": null,
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "OECD members and partner economies participating in each PISA cycle",
@@ -963,10 +999,12 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "checked": "2026-11-01",
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://escale.minedu.gob.pe/",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "Peru (school level)",
@@ -1013,10 +1051,12 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "checked": "2026-11-01",
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.gov.scot/collections/school-education-statistics/",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "Scotland (national, local authority, school level)",
@@ -1062,10 +1102,12 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "checked": "2026-11-01",
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://siteal.iiep.unesco.org/",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "19 Latin American countries (Argentina, Bolivia, Brasil, Colombia, Costa Rica, Cuba, Chile, República Dominicana, Ecuador, El Salvador, Guatemala, Honduras, México, Nicaragua, Panamá, Paraguay, Perú, Uruguay, Venezuela)",
@@ -1113,10 +1155,12 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "checked": "2026-11-01",
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://explore-education-statistics.service.gov.uk/",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "England (national, regional, local authority, and school level depending on release)",
@@ -1164,9 +1208,11 @@
       "status_source": "curator",
       "observed": {
         "checked": "2026-11-01",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.unesco.org/es/articles/estudio-regional-comparativo-y-explicativo-erce-2019",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "16 Latin American and Caribbean countries (Argentina, Brazil, Colombia, Costa Rica, Cuba, Ecuador, El Salvador, Guatemala, Honduras, Mexico, Nicaragua, Panama, Paraguay, Peru, Dominican Republic, Uruguay)",
@@ -1216,7 +1262,7 @@
       "status_since": "2026-07-01",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-08-23",
+        "checked": "2026-11-01",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.uis.unesco.org/en",
@@ -1268,10 +1314,12 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "checked": "2026-11-01",
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.ineed.edu.uy/bases-de-datos-de-aristas/",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "Uruguay (national samples of primary and secondary students)",
@@ -1317,10 +1365,12 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "checked": "2026-11-01",
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.gov.wales/schools-census-results",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "Wales (national and local authority)",
