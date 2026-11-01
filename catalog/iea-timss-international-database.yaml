@@ -1,0 +1,48 @@
+id: iea-timss-international-database
+type: dataset
+title: IEA TIMSS International Database (Trends in International Mathematics and Science Study)
+description: |
+  Student, teacher, school and home microdata and achievement scores from IEA's TIMSS assessments of mathematics and science at grades 4 and 8, every four years from 1995 to 2023, with documentation for secondary analysis. TIMSS Longitudinal and TIMSS Advanced data have their own repository pages.
+publisher: International Association for the Evaluation of Educational Achievement (IEA); study directed by the TIMSS & PIRLS International Study Center, Boston College
+jurisdiction:
+  scope: international-ngo
+  country: null
+topics:
+- assessment
+- learning-outcomes
+- mathematics
+- science
+- international
+- microdata
+source:
+  canonical_url: https://www.iea.nl/data-tools/repository/timss
+  identifiers:
+    doi: 10.58150/IEA_TIMSS_2023_G8_data_edition_1
+access:
+  method:
+  - web
+  - bulk
+  auth_required: false
+  auth_note: No registration for public-use files, but downloading requires ticking "I agree to the terms and conditions" (IEA Disclaimer and License Agreement). Restricted-use variables require an application and a non-disclosure agreement.
+  rate_limit: null
+format:
+- sas
+- spss
+- r
+status: live
+status_since: '2026-11-01'
+status_source: curator
+observed:
+  checked: '2026-11-01'
+  reachable: null
+  http_status: null
+  final_url: null
+coverage:
+  spatial: countries and benchmarking entities participating in each TIMSS cycle
+  temporal: 1995-2023 (cycles 1995, 1999, 2003, 2007, 2011, 2015, 2019, 2023)
+  cadence: irregular
+license: IEA Terms and conditions and rights of use (non-commercial, educational and research purposes only; redistribution prohibited without IEA's written permission)
+attribution: 'SOURCE: TIMSS (year) Assessment. Copyright © (year) International Association for the Evaluation of Educational Achievement (IEA). Publisher: TIMSS & PIRLS International Study Center, Lynch School of Education, Boston College.'
+notes: |
+  Human-verified 2026-11-01: HTTP 200 (curl and headless Chromium) on IEA's Data Repository. The issue's URL, https://timss-and-pirls.bc.edu/, did not respond (curl status 000; Chromium net::ERR_TUNNEL_CONNECTION_FAILED). The study center's real host, https://timssandpirls.bc.edu/, does answer (HTTP 200), and its news points to "The TIMSS 2023 International Database and User Guide ... at timss2023.org/data". This entry catalogues IEA's repository, which holds every cycle. The page says TIMSS is "Directed by the TIMSS & PIRLS International Study Center at Boston College" and lists SAS, SPSS and (for 2023) R "Data & Documentation" zips for TIMSS 2023 grades 4 and 8 back to TIMSS 1995, each with a DOI (e.g. https://doi.org/10.58150/IEA_TIMSS_2023_G8_data_edition_1). The TIMSS 2023 grade 8 SPSS zip answered HTTP 200 (about 1.1 GB). The repository's overview says "Data is available in SPSS and SAS, and from PIRLS 2021 onward R formats", and "some variables have been left out from the public use data", with restricted-use files available on application. The files were not opened.
+  Licence checked 2026-11-01: the repository page says "By accessing the Data Repository and the IDB Analyzer, you indicate that you agree to the terms and conditions", linking https://www.iea.nl/sites/default/files/2019-05/Disclaimer%20and%20License%20Agreement.pdf. That agreement "governs the use of all of IEA's works", and says "All publications and restricted use items by TIMSS, PIRLS, other IEA studies, and IEA ... are for non-commercial, educational and research purposes only". It also says "Commercial exploitation, distribution, redistribution, reproduction ... are prohibited unless written permission has been provided by IEA". The attribution format comes from section 2.2.
