@@ -1,9 +1,9 @@
 {
   "name": "Education Almanac",
   "description": "An open, versioned index of public education data.",
-  "count": 25,
+  "count": 26,
   "by_status": {
-    "live": 25
+    "live": 26
   },
   "entries": [
     {
@@ -876,6 +876,57 @@
       "license": "OGL-UK-3.0 (Department of Education NI Crown copyright statement, site-wide)",
       "attribution": "Department of Education Northern Ireland, School enrolments",
       "notes": "Human-verified 2026-10-31: HTTP 200. The old /topics/statistics-and-research/school-enrolments URL redirects here. The overview page (https://www.education-ni.gov.uk/articles/school-enrolments-overview) says the census \"takes place in October of each year and is a count of all pupils attending schools in Northern Ireland\" and lists the characteristics collected. The topic page links school-level data and school population projections. The formats are unverified.\nLicence checked 2026-10-31: the footer's Crown copyright link (https://www.education-ni.gov.uk/articles/crown-copyright-education) says \"You may use and re-use the information featured on this website (not including logos) free of charge in any format or medium, under the terms of the Open Government Licence\", linking OGL v3. It is site-wide; the school-level data page states no licence of its own.\n"
+    },
+    {
+      "id": "oecd-pisa-database",
+      "type": "dataset",
+      "title": "OECD PISA Database (Programme for International Student Assessment)",
+      "description": "Public-use microdata from the OECD's Programme for International Student Assessment, the triennial assessment of 15-year-olds in reading, mathematics and science. It includes student, school and teacher questionnaire files, cognitive item and timing files, and innovative-domain files (financial literacy, creative thinking) for every cycle from PISA 2000 to PISA 2025.\n",
+      "publisher": "Organisation for Economic Co-operation and Development (OECD)",
+      "jurisdiction": {
+        "scope": "multilateral",
+        "country": null
+      },
+      "topics": [
+        "assessment",
+        "learning-outcomes",
+        "international",
+        "microdata"
+      ],
+      "source": {
+        "canonical_url": "https://webfs.oecd.org/pisa2022/index.html"
+      },
+      "access": {
+        "method": [
+          "web",
+          "bulk"
+        ],
+        "auth_required": false,
+        "auth_note": null,
+        "rate_limit": null
+      },
+      "format": [
+        "spss",
+        "sas",
+        "csv"
+      ],
+      "status": "live",
+      "status_since": "2026-11-01",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-11-01",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "OECD members and partner economies participating in each PISA cycle",
+        "temporal": "2000-2025 (triennial cycles; PISA 2021 was postponed to 2022)",
+        "cadence": "irregular"
+      },
+      "license": "unverified — OECD terms page (oecd.org/en/about/terms-conditions.html) is behind a Cloudflare bot challenge and could not be read",
+      "attribution": "OECD, PISA (cycle) Database",
+      "notes": "Human-verified 2026-11-01: HTTP 200 (curl) for OECD's file-server page \"PISA Data Files\" at webfs.oecd.org. The issue's URL, https://www.oecd.org/en/about/programmes/pisa.html, and the PISA database pages on www.oecd.org returned a Cloudflare \"Performing security verification\" page (HTTP 403) to curl, headless Chromium and WebFetch. The webfs.oecd.org bare directory (/pisa2022/) also returns 403; only index.html answers. The page lists sections for \"PISA 2025\", \"PISA 2022\", 2018, 2015, 2012, 2009, \"2009 - ERA\", 2006, 2003, 2000 and \"PISA for Development\". PISA 2025 offers SPSS files (school, student, teacher, cognitive item, cognitive process, questionnaire timing and LDW cognitive), and the foreign language assessment files are marked \"(April 2027)\". The PISA 2025 student file (…/pisa2022/2025/CY09_MS_STU_PUF.zip) answered HTTP 200, about 993 MB, last-modified 24 Aug 2026. PISA 2022 and earlier offer SAS and SPSS, and the rescaled ESCS trend indices are \"available in CSV only\". OECD's PISA International Data Explorer (https://pisadataexplorer.oecd.org/ide/idepisa/) also answered HTTP 200 for online tabulation. The files were not opened.\nLicence checked 2026-11-01: not verified. OECD's terms page, https://www.oecd.org/en/about/terms-conditions.html, was blocked as above, and the PISA Data Files page shows no licence text. No licence is asserted.\n"
     },
     {
       "id": "peru-minedu-escale",
