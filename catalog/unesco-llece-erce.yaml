@@ -1,0 +1,43 @@
+id: unesco-llece-erce
+type: dataset
+title: UNESCO LLECE ERCE 2019 Regional Learning Assessment Databases
+description: |
+  Student, teacher, family and school databases from ERCE 2019 (Estudio Regional Comparativo y Explicativo), the fourth regional learning assessment of primary students in Latin America and the Caribbean. It was run by UNESCO's Latin American Laboratory for Assessment of the Quality of Education (LLECE) in 16 countries, and the databases come with codebooks, questionnaires and a user manual.
+publisher: UNESCO Regional Bureau for Education in Latin America and the Caribbean (OREALC/UNESCO Santiago), Latin American Laboratory for Assessment of the Quality of Education (LLECE)
+jurisdiction:
+  scope: multilateral
+  country: null
+topics:
+- assessment
+- learning-outcomes
+- latin-america
+- microdata
+source:
+  canonical_url: https://www.unesco.org/es/articles/estudio-regional-comparativo-y-explicativo-erce-2019
+access:
+  method:
+  - web
+  - bulk
+  auth_required: false
+  auth_note: null
+  rate_limit: null
+format:
+- zip
+- pdf
+status: live
+status_since: '2026-11-01'
+status_source: curator
+observed:
+  checked: '2026-11-01'
+  reachable: null
+  http_status: null
+  final_url: null
+coverage:
+  spatial: 16 Latin American and Caribbean countries (Argentina, Brazil, Colombia, Costa Rica, Cuba, Ecuador, El Salvador, Guatemala, Honduras, Mexico, Nicaragua, Panama, Paraguay, Peru, Dominican Republic, Uruguay)
+  temporal: '2019'
+  cadence: irregular
+license: unverified — no data-specific licence on the ERCE page; UNESCO's site-wide Terms of use allow only occasional non-commercial educational and research reproduction where no specific licence applies
+attribution: UNESCO OREALC/LLECE, Estudio Regional Comparativo y Explicativo (ERCE 2019)
+notes: |
+  Human-verified 2026-11-01: HTTP 200 (curl with a browser User-Agent; headless Chromium got net::ERR_EMPTY_RESPONSE from www.unesco.org this session). The LLECE description page named in the issue (https://www.unesco.org/es/fieldoffice/santiago/expertise/llece) says LLECE "ha puesto a disposición bases de datos" and links "Más información" to the ERCE 2019 article catalogued here (published 9 March 2023, "Última actualización: 31 de Agosto de 2026"). That page has a section "Bases de datos del cuarto Estudio Regional Comparativo y Explicativo (ERCE 2019)" with links to "Bases de datos (zip)", "Libros de código (zip)", "Cuestionarios (zip)" and a PDF "Manual de uso de las bases de datos". The links go to UNESCO's SharePoint (unesco.sharepoint.com/s/SantiagoTeam). curl was redirected to a Microsoft login, but headless Chromium opened the shared "1. Bases de datos-20220726T214504Z-001.zip" anonymously (folder dated 2022-06-17). The page says ERCE 2019 "se aplicó desde mayo de 2019 en 16 países" and covered "más de 4.000 escuelas y más de 160.000 niños", and that TERCE 2013 comparability was maintained. It also links an "ERCE 2025" fifth-cycle project page, whose data were not looked for. Data file formats inside the zips weren't checked, and neither were the earlier cycles (PERCE, SERCE, TERCE).
+  Licence checked 2026-11-01: the ERCE page shows "Attribution 3.0 IGO (CC BY 3.0 IGO)" only as the credit for its header photo, not for the data. UNESCO's general Terms of use (https://www.unesco.org/en/terms-use, last update 15 September 2026) say "Where a Material is made available under an Intergovernmental Organization (IGO) Creative Commons license or other specific license, the User may use that Material in accordance with the terms of that license". Otherwise users "may consult, cite, translate and reproduce individual Materials, on an occasional and individual basis, for personal use and for non-commercial educational and research purposes, with proper attribution to UNESCO". Section 8 reserves text-and-data-mining rights. These are site-wide terms, not a data licence, so the data licence is left unverified.
