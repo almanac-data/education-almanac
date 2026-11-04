@@ -36,6 +36,13 @@ observed:
   final_url: https://collegescorecard.ed.gov/data/
   redirect_chain: []
   fingerprint_result: no-baseline
+recovery:
+- via: wayback
+  url: https://web.archive.org/web/20261102221729/https://collegescorecard.ed.gov/data/
+  authenticity: timestamped
+  permission: ok
+  captured: '2026-11-02'
+  notes: 'Recorded by scripts/capture_archives.py on 2026-11-04: the newest existing capture (Save Page Now returned 0).'
 coverage:
   spatial: United States (institution and field-of-study level)
   temporal: 1996-97 through 2025-26 (institution-level files)

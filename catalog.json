@@ -48,6 +48,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20261104212036/https://www.argentina.gob.ar/capital-humano/educacion/informacion-y-evaluacion-educativa",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-11-04",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-04: a capture it requested from Save Page Now."
+        }
+      ],
       "coverage": {
         "spatial": "Argentina (national, provincial, school level)",
         "temporal": "varies by survey",
@@ -101,6 +111,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20261026211537/https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-10-26",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-04: the newest existing capture (Save Page Now returned 0)."
+        }
+      ],
       "coverage": {
         "spatial": "Brazil (school, institution, and individual level, de-identified)",
         "temporal": "varies by survey (multiple decades for the School Census)",
@@ -156,6 +176,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20261104212622/https://statistics.cepal.org/portal/cepalstat/index.html",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-11-04",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-04: a capture it requested from Save Page Now."
+        }
+      ],
       "coverage": {
         "spatial": "Latin America and the Caribbean (country and regional aggregates)",
         "temporal": "varies by indicator",
@@ -210,6 +240,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20261102221729/https://collegescorecard.ed.gov/data/",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-11-02",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-04: the newest existing capture (Save Page Now returned 0)."
+        }
+      ],
       "coverage": {
         "spatial": "United States (institution and field-of-study level)",
         "temporal": "1996-97 through 2025-26 (institution-level files)",
@@ -262,6 +302,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20261104213143/https://www.icfes.gov.co/investigaciones/data-icfes/",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-11-04",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-04: a capture it requested from Save Page Now."
+        }
+      ],
       "coverage": {
         "spatial": "Colombia (student, school and higher-education-institution level)",
         "temporal": "varies by exam (the Saber 11 file on datos.gov.co covers 2010-2022)",
@@ -313,6 +363,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20251207012423/https://www.mep.go.cr/acerca-del-mep/analisis-estadistico/estadisticas-educativas",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2025-12-07",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-04: the newest existing capture (Save Page Now returned 0)."
+        }
+      ],
       "coverage": {
         "spatial": "Costa Rica (school level)",
         "temporal": "2014-2022 for the enrollment databases listed",
@@ -365,6 +425,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20261104213645/https://civilrightsdata.ed.gov/",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-11-04",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-04: a capture it requested from Save Page Now."
+        }
+      ],
       "coverage": {
         "spatial": "United States (all public districts and schools in the 50 states, DC, and Puerto Rico)",
         "temporal": "school years through 2023-24 (recent downloadable files 2015-16 onward)",
@@ -421,6 +491,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20260929155346/https://ec.europa.eu/eurostat/web/education-and-training/database",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-09-29",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-04: the newest existing capture (Save Page Now returned 0)."
+        }
+      ],
       "coverage": {
         "spatial": "EU member states (plus some EFTA and candidate countries)",
         "temporal": "varies by dataset",
@@ -475,6 +555,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20261104214137/https://www.iea.nl/data-tools/repository/pirls",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-11-04",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-04: a capture it requested from Save Page Now."
+        }
+      ],
       "coverage": {
         "spatial": "countries and benchmarking entities participating in each PIRLS cycle",
         "temporal": "2001-2021 (cycles 2001, 2006, 2011, 2016, 2021; PIRLS 2026 under way)",
@@ -533,6 +623,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20261012200159/https://www.iea.nl/data-tools/repository/timss",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-10-12",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-04: the newest existing capture (Save Page Now returned 0)."
+        }
+      ],
       "coverage": {
         "spatial": "countries and benchmarking entities participating in each TIMSS cycle",
         "temporal": "1995-2023 (cycles 1995, 1999, 2003, 2007, 2011, 2015, 2019, 2023)",
