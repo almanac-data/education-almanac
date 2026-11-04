@@ -39,6 +39,13 @@ observed:
   final_url: https://www.iea.nl/data-tools/repository/timss
   redirect_chain: []
   fingerprint_result: no-baseline
+recovery:
+- via: wayback
+  url: https://web.archive.org/web/20261012200159/https://www.iea.nl/data-tools/repository/timss
+  authenticity: timestamped
+  permission: ok
+  captured: '2026-10-12'
+  notes: 'Recorded by scripts/capture_archives.py on 2026-11-04: the newest existing capture (Save Page Now returned 0).'
 coverage:
   spatial: countries and benchmarking entities participating in each TIMSS cycle
   temporal: 1995-2023 (cycles 1995, 1999, 2003, 2007, 2011, 2015, 2019, 2023)

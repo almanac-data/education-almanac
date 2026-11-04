@@ -34,6 +34,13 @@ observed:
   final_url: https://www.icfes.gov.co/investigaciones/data-icfes/
   redirect_chain: []
   fingerprint_result: no-baseline
+recovery:
+- via: wayback
+  url: https://web.archive.org/web/20261104213143/https://www.icfes.gov.co/investigaciones/data-icfes/
+  authenticity: timestamped
+  permission: ok
+  captured: '2026-11-04'
+  notes: 'Recorded by scripts/capture_archives.py on 2026-11-04: a capture it requested from Save Page Now.'
 coverage:
   spatial: Colombia (student, school and higher-education-institution level)
   temporal: varies by exam (the Saber 11 file on datos.gov.co covers 2010-2022)

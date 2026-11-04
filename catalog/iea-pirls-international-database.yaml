@@ -36,6 +36,13 @@ observed:
   final_url: https://www.iea.nl/data-tools/repository/pirls
   redirect_chain: []
   fingerprint_result: no-baseline
+recovery:
+- via: wayback
+  url: https://web.archive.org/web/20261104214137/https://www.iea.nl/data-tools/repository/pirls
+  authenticity: timestamped
+  permission: ok
+  captured: '2026-11-04'
+  notes: 'Recorded by scripts/capture_archives.py on 2026-11-04: a capture it requested from Save Page Now.'
 coverage:
   spatial: countries and benchmarking entities participating in each PIRLS cycle
   temporal: 2001-2021 (cycles 2001, 2006, 2011, 2016, 2021; PIRLS 2026 under way)
