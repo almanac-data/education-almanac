@@ -41,7 +41,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-09",
+        "checked": "2026-11-10",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.argentina.gob.ar/capital-humano/educacion/informacion-y-evaluacion-educativa",
@@ -104,7 +104,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-09",
+        "checked": "2026-11-10",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados",
@@ -169,7 +169,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-09",
+        "checked": "2026-11-10",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://statistics.cepal.org/portal/cepalstat/index.html",
@@ -233,7 +233,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-09",
+        "checked": "2026-11-10",
         "reachable": true,
         "http_status": 403,
         "final_url": "https://collegescorecard.ed.gov/data/",
@@ -295,7 +295,7 @@
       "status_since": "2026-11-01",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-09",
+        "checked": "2026-11-10",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.icfes.gov.co/investigaciones/data-icfes/",
@@ -356,7 +356,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-09",
+        "checked": "2026-11-10",
         "reachable": false,
         "http_status": null,
         "final_url": null,
@@ -418,7 +418,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-09",
+        "checked": "2026-11-10",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://civilrightsdata.ed.gov/",
@@ -484,7 +484,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-09",
+        "checked": "2026-11-10",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://ec.europa.eu/eurostat/web/education-and-training/database",
@@ -548,7 +548,7 @@
       "status_since": "2026-11-01",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-09",
+        "checked": "2026-11-10",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.iea.nl/data-tools/repository/pirls",
@@ -616,7 +616,7 @@
       "status_since": "2026-11-01",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-09",
+        "checked": "2026-11-10",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.iea.nl/data-tools/repository/timss",
@@ -680,7 +680,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-09",
+        "checked": "2026-11-10",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.inegi.org.mx/temas/educacion/",
@@ -733,7 +733,7 @@
       "status_since": "2026-11-01",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-09",
+        "checked": "2026-11-10",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://siged.sep.gob.mx/SIGED/datos_abiertos.html",
@@ -785,7 +785,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-09",
+        "checked": "2026-11-10",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.nationsreportcard.gov/",
@@ -837,7 +837,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-09",
+        "checked": "2026-11-10",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://nces.ed.gov/ccd/",
@@ -891,7 +891,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-09",
+        "checked": "2026-11-10",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://nces.ed.gov/programs/digest/",
@@ -944,7 +944,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-09",
+        "checked": "2026-11-10",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://nces.ed.gov/ipeds/",
@@ -995,7 +995,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-09",
+        "checked": "2026-11-10",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.education-ni.gov.uk/topics/school-enrolments",
@@ -1048,7 +1048,7 @@
       "status_since": "2026-11-01",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-09",
+        "checked": "2026-11-10",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://webfs.oecd.org/pisa2022/index.html",
@@ -1099,7 +1099,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-09",
+        "checked": "2026-11-10",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://escale.minedu.gob.pe/",
@@ -1151,7 +1151,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-09",
+        "checked": "2026-11-10",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.gov.scot/collections/school-education-statistics/",
@@ -1202,7 +1202,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-09",
+        "checked": "2026-11-10",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://siteal.iiep.unesco.org/",
@@ -1255,7 +1255,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-09",
+        "checked": "2026-11-10",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://explore-education-statistics.service.gov.uk/",
@@ -1307,7 +1307,7 @@
       "status_since": "2026-11-01",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-09",
+        "checked": "2026-11-10",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.unesco.org/es/articles/estudio-regional-comparativo-y-explicativo-erce-2019",
@@ -1362,7 +1362,7 @@
       "status_since": "2026-07-01",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-09",
+        "checked": "2026-11-10",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.uis.unesco.org/en",
@@ -1414,7 +1414,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-09",
+        "checked": "2026-11-10",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.ineed.edu.uy/bases-de-datos-de-aristas/",
@@ -1465,7 +1465,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-09",
+        "checked": "2026-11-10",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.gov.wales/schools-census-results",
