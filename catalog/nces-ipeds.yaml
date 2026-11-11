@@ -35,6 +35,13 @@ observed:
   final_url: https://nces.ed.gov/ipeds/
   redirect_chain: []
   fingerprint_result: no-baseline
+recovery:
+- via: wayback
+  url: https://web.archive.org/web/20261106230932/https://nces.ed.gov/ipeds/
+  authenticity: timestamped
+  permission: ok
+  captured: '2026-11-06'
+  notes: 'Recorded by scripts/capture_archives.py on 2026-11-11: the newest existing capture (Save Page Now returned 0).'
 coverage:
   spatial: United States (institution level)
   temporal: multi-decade annual collections
