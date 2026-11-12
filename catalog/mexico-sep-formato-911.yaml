@@ -35,6 +35,13 @@ observed:
   final_url: https://siged.sep.gob.mx/SIGED/datos_abiertos.html
   redirect_chain: []
   fingerprint_result: no-baseline
+recovery:
+- via: wayback
+  url: https://web.archive.org/web/20261029000406/https://siged.sep.gob.mx/SIGED/datos_abiertos.html
+  authenticity: timestamped
+  permission: ok
+  captured: '2026-10-29'
+  notes: 'Recorded by scripts/capture_archives.py on 2026-11-11: the newest existing capture (Save Page Now returned 200).'
 coverage:
   spatial: Mexico (national, state and school level)
   temporal: school years 2019-2020 to 2024-2025 in the open data files; DGPPYEE historical series back to 1893-1894

@@ -35,6 +35,13 @@ observed:
   final_url: null
   redirect_chain: []
   fingerprint_result: no-baseline
+recovery:
+- via: wayback
+  url: https://web.archive.org/web/20250218143154/https://webfs.oecd.org/pisa2022/index.html
+  authenticity: timestamped
+  permission: ok
+  captured: '2025-02-18'
+  notes: 'Recorded by scripts/capture_archives.py on 2026-11-11: the newest existing capture (Save Page Now returned 0).'
 coverage:
   spatial: OECD members and partner economies participating in each PISA cycle
   temporal: 2000-2025 (triennial cycles; PISA 2021 was postponed to 2022)
