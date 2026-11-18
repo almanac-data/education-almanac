@@ -33,6 +33,13 @@ observed:
   final_url: https://www.gov.wales/schools-census-results
   redirect_chain: []
   fingerprint_result: no-baseline
+recovery:
+- via: wayback
+  url: https://web.archive.org/web/20260916034638/https://www.gov.wales/schools-census-results
+  authenticity: timestamped
+  permission: ok
+  captured: '2026-09-16'
+  notes: 'Recorded by scripts/capture_archives.py on 2026-11-18: the newest existing capture (Save Page Now returned 0).'
 coverage:
   spatial: Wales (national and local authority)
   temporal: January census rounds (series first published 2014; latest January 2026)

@@ -1128,6 +1128,14 @@
       "recovery": [
         {
           "via": "wayback",
+          "url": "https://web.archive.org/web/20261118225542/https://webfs.oecd.org/pisa2022/index.html",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-11-18",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-18: a capture it requested from Save Page Now."
+        },
+        {
+          "via": "wayback",
           "url": "https://web.archive.org/web/20250218143154/https://webfs.oecd.org/pisa2022/index.html",
           "authenticity": "timestamped",
           "permission": "ok",
@@ -1248,6 +1256,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20261118223649/https://www.gov.scot/collections/school-education-statistics/",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-11-18",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-18: a capture it requested from Save Page Now."
+        }
+      ],
       "coverage": {
         "spatial": "Scotland (national, local authority, school level)",
         "temporal": "varies by series (2025 pupil and teacher census latest)",
@@ -1299,6 +1317,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20261116140633/https://siteal.iiep.unesco.org/",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-11-16",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-18: the newest existing capture (Save Page Now returned 0)."
+        }
+      ],
       "coverage": {
         "spatial": "19 Latin American countries (Argentina, Bolivia, Brasil, Colombia, Costa Rica, Cuba, Chile, República Dominicana, Ecuador, El Salvador, Guatemala, Honduras, México, Nicaragua, Panamá, Paraguay, Perú, Uruguay, Venezuela)",
         "temporal": "varies by indicator",
@@ -1352,6 +1380,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20261118224135/https://explore-education-statistics.service.gov.uk/",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-11-18",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-18: a capture it requested from Save Page Now."
+        }
+      ],
       "coverage": {
         "spatial": "England (national, regional, local authority, and school level depending on release)",
         "temporal": "varies by publication",
@@ -1404,6 +1442,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20261011223718/https://www.unesco.org/es/articles/estudio-regional-comparativo-y-explicativo-erce-2019",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-10-11",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-18: the newest existing capture (Save Page Now returned 0)."
+        }
+      ],
       "coverage": {
         "spatial": "16 Latin American and Caribbean countries (Argentina, Brazil, Colombia, Costa Rica, Cuba, Ecuador, El Salvador, Guatemala, Honduras, Mexico, Nicaragua, Panama, Paraguay, Peru, Dominican Republic, Uruguay)",
         "temporal": "2019",
@@ -1461,6 +1509,16 @@
         ],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20250921071945/https://uis.unesco.org/en/home",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2025-09-21",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-18: the newest existing capture (Save Page Now returned 200)."
+        }
+      ],
       "coverage": {
         "spatial": "global (UNESCO member states)",
         "temporal": "1970-present (indicator-dependent)",
@@ -1511,6 +1569,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20261118225052/https://www.ineed.edu.uy/bases-de-datos-de-aristas/",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-11-18",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-18: a capture it requested from Save Page Now."
+        }
+      ],
       "coverage": {
         "spatial": "Uruguay (national samples of primary and secondary students)",
         "temporal": "Aristas assessment rounds",
@@ -1562,6 +1630,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20260916034638/https://www.gov.wales/schools-census-results",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-09-16",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-18: the newest existing capture (Save Page Now returned 0)."
+        }
+      ],
       "coverage": {
         "spatial": "Wales (national and local authority)",
         "temporal": "January census rounds (series first published 2014; latest January 2026)",
