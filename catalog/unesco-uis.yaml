@@ -38,6 +38,13 @@ observed:
   redirect_chain:
   - https://www.uis.unesco.org/en
   fingerprint_result: no-baseline
+recovery:
+- via: wayback
+  url: https://web.archive.org/web/20250921071945/https://uis.unesco.org/en/home
+  authenticity: timestamped
+  permission: ok
+  captured: '2025-09-21'
+  notes: 'Recorded by scripts/capture_archives.py on 2026-11-18: the newest existing capture (Save Page Now returned 200).'
 coverage:
   spatial: global (UNESCO member states)
   temporal: 1970-present (indicator-dependent)
